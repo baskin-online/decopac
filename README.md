@@ -8,7 +8,7 @@ The following is a list of Decopac toys available at the
 [Kailua](https://order.baskinrobbins.com/menu/baskin-robbins-348162)
 Baskin Robbins locations.
 
-Available at: [https://kathleen808.github.io/decopac/](https://kathleen808.github.io/decopac/)<br/>
+Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br/>
 
 [Angry Birds](images/angryBirdsLaunching.jpg)<br/>
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
