@@ -14,36 +14,36 @@ Below is a list of Decopac toys available at the following Baskin Robbins locati
 </details>
 <details>
 <summary>King St.</summary>
-**Address**: 1618 S King St, Honolulu, HI 96826<br>
-**Phone**: (808) 947-7300<br/>
-**Hours**: Everyday 10 am - 10 pm<br>
-<!--**Store Number**: 362037<br>-->
+<strong>Address</strong>: 1618 S King St, Honolulu, HI 96826<br>
+<strong>Phone</strong>: (808) 947-7300<br/>
+<strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 362037<br>-->
 </details>
 <details>
 <summary>Mililani</summary>
-**Address**: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
-**Phone**: (808) 623-9999<br>
-**Hours**: Everyday 11 am - 10 pm<br>
-<!--**Store Number**: 342350<br>-->
+<strong>Address</strong>: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
+<strong>Phone</strong>: (808) 623-9999<br>
+<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 342350<br>-->
 </details>
 <details>
 <summary>Moanalua</summary>
-**Address**: 930 Valkenburgh St, Honolulu, HI 96818<br>
-**Phone**: (808) 421-0888<br>
-**Hours**: Everyday 11 am - 10 pm<br>
-<!--**Store Number**: 343836<br>-->
+<strong>Address*</strong>: 930 Valkenburgh St, Honolulu, HI 96818<br>
+<strong>Phone</strong>: (808) 421-0888<br>
+<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 343836<br>-->
 </details>
 <details>
 <summary>Kailua</summary>
-**Address**: 108 Hekili St, Kailua, HI 96734<br>
-**Phone**: (808) 261-2770<br>
-**Hours**: Everyday 11 am - 10 pm<br>
-<!--**Store Number**: 348162<br>-->
+<strong>Address</strong>: 108 Hekili St, Kailua, HI 96734<br>
+<strong>Phone</strong>: (808) 261-2770<br>
+<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 348162<br>-->
 </details>
 
 ***
 
-##Decopac List
+<h2Decopac List</h2>
 <!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
 [Avengers](images/avengers.jpg) <br/>
