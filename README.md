@@ -1,16 +1,17 @@
 # Decopac List
 
 The following is a list of Decopac toys available at the 
-[Kapolei](https://order.baskinrobbins.com/menu/baskin-robbins-362036), 
-[King St.](https://order.baskinrobbins.com/menu/baskin-robbins-362037), 
-[Moanalua](https://order.baskinrobbins.com/menu/baskin-robbins-343836), 
-[Mililani](https://order.baskinrobbins.com/menu/baskin-robbins-342350), and 
-[Kailua](https://order.baskinrobbins.com/menu/baskin-robbins-348162)
+[Kapolei](https://order.baskinrobbins.com/categories/br-362036), 
+[King St.](https://order.baskinrobbins.com/categories/br-362037), 
+[Moanalua](https://order.baskinrobbins.com/categories/br-343836), 
+[Mililani](https://order.baskinrobbins.com/categories/br-342350), and 
+[Kailua](https://order.baskinrobbins.com/categories/br-348162)
 Baskin Robbins locations.
 
 Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br/>
+[BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br/>
 
-[Angry Birds](images/angryBirdsLaunching.jpg)<br/>
+<!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
 [Avengers](images/avengers.jpg) <br/>
 [Avatar the Last Airbender](images/avatar-airbender.jpg) <br/>
