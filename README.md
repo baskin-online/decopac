@@ -1,4 +1,4 @@
-Decopac toys are $9.99 each and require a 24-hour notice in advance. <br>
+Decopac toys are <div style="color: #ff00b3; font-weight: bold;">$9.99</div> each and require a <div style="color: #ff00b3; font-weight: bold;">24-hour notice</div> in advance. <br>
 
 <hr>
 
@@ -27,7 +27,7 @@ Decopac toys are $9.99 each and require a 24-hour notice in advance. <br>
 [Dinosaur](images/dinosaur-jurrasicWorld.jpg) (Jurrasic World)<br/>
 [Dinosaur Pals](images/dinosaurPals.jpg)<br/>
 [Disney Princesses](images/disneyPrincesses.jpg) (Aurora, Belle, Cinderella)<br/>
-Disney Princess [Anna & Elsa](images/disneyPrincess-AnnaAndElsa.jpg) (Frozen)<br/>
+<!--Disney Princess [Anna & Elsa](images/disneyPrincess-AnnaAndElsa.jpg) (Frozen)<br/>-->
 Disney Princess [Anna & Elsa 2](images/frozen2.jpg) (Frozen 2)<br/>
 Disney Princess [Ariel and Scuttle](images/disneyPrincess-ArielAndScuttle.jpg)<br/>
 Disney Princess [Cinderella](images/disneyPrincess-Cinderella.jpg)<br/>
@@ -71,6 +71,7 @@ Disney Princess [Sofia the First](images/disneyPrincess-Sofia.jpg)<br/>
 [Paw Patrol](images/pawPatrol.jpg) <br/>
 [Peppa Pig](images/peppaPig.jpg) <br/>
 [Phineas and Ferb](images/phineasAndFerb.jpg)<br/>
+[PJ Masks](images/pj-mask.jpg) <br/>
 [Pokemon](images/pokemon.jpg) <br/>
 [Powerpuff Girls](images/powerPuffGirls.jpg) <br/>
 [Puss in Boots](images/puss-in-boots.jpg) (Humpty and Puss)<br/>
@@ -122,7 +123,7 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 ***
 
 The above list are the Decopac toys available at the following Baskin Robbins locations:
-<details style="text-indent:50px;">
+<details>
 <summary>Kapolei</summary>
 <strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
 <strong>Phone</strong>: (808) 674-0131<br>
