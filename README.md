@@ -1,15 +1,16 @@
-Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>
+<!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
 
 [BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br>
 
 ***
+
 Below is a list of Decopac toys available at the following Baskin Robbins locations: <br>
 <details>
 <summary>Kapolei</summary>
-**Address**: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
-**Phone**: (808) 674-0131<br>
-**Hours**: Everyday 10 am - 10 pm<br>
-<!--**Store Number**: 363036<br>-->
+<strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
+<strong>Phone</strong>: (808) 674-0131<br>
+<strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 363036<br>-->
 </details>
 <details>
 <summary>King St.</summary>
@@ -39,7 +40,9 @@ Below is a list of Decopac toys available at the following Baskin Robbins locati
 **Hours**: Everyday 11 am - 10 pm<br>
 <!--**Store Number**: 348162<br>-->
 </details>
+
 ***
+
 ##Decopac List
 <!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
