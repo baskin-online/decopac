@@ -37,6 +37,7 @@ Disney Princess [Moana](images/disneyPrincess-Moana.jpg)<br/>
 Disney Princess [Sofia the First](images/disneyPrincess-Sofia.jpg)<br/>
 [Doc McStuffins](images/docMcStuffins.jpg)<br/>
 [Dora the Explorer](images/doraBirthday.jpg) (Birthday)<br/>
+[Dora the Explorer](images/dora-umbrella.jpg) (Umbrella)<br/>
 [Emergency Vehicles](images/emergencyVehicles.jpg) (Ambulance, Firetruck, Police Car, Helicopter)<br/>
 [Finding Dory](images/findingDory.jpg) (Fintastic Adventures)<br/>
 [Finding Nemo](images/findingNemo.jpg) (Nemo & Squirt)<br/>
@@ -105,6 +106,7 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 [Turbo](images/turbo.jpg)<br/>
 <!--[Transformers](images/transformers.jpg) <br/>-->
 [Trolls](images/trolls.jpg) <br/>
+[Unicorn](images/unicorn-pastel.jpg) (Round) - example colors only, doesn't use official Decopac toy<br/>
 [Unicorn](images/unicorn.jpg) (Sheet Cake)<br/>
 [Unicorn](images/unicorn-round.jpg) (Two-Tiered Round Cake)<br/>
 
