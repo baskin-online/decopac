@@ -1,4 +1,4 @@
-Decopac toys are $9.99 for each set and require a 24-hour notice in advance. <br>
+Decopac toys are $9.99 each and require a 24-hour notice in advance. <br>
 
 <hr>
 
@@ -121,8 +121,8 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 
 ***
 
-The above list are the Decopac toys available at the following Baskin Robbins locations: <br>
-<details>
+The above list are the Decopac toys available at the following Baskin Robbins locations:
+<details style="text-indent:50px;">
 <summary>Kapolei</summary>
 <strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
 <strong>Phone</strong>: (808) 674-0131<br>
