@@ -1,44 +1,4 @@
-<!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
-
-[BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br>
-
-***
-
-Below is a list of Decopac toys available at the following Baskin Robbins locations: <br>
-<details>
-<summary>Kapolei</summary>
-<strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
-<strong>Phone</strong>: (808) 674-0131<br>
-<strong>Hours</strong>: Everyday 10 am - 10 pm<br>
-<!--<strong>Store Number</strong>: 363036<br>-->
-</details>
-<details>
-<summary>King St.</summary>
-<strong>Address</strong>: 1618 S King St, Honolulu, HI 96826<br>
-<strong>Phone</strong>: (808) 947-7300<br/>
-<strong>Hours</strong>: Everyday 10 am - 10 pm<br>
-<!--<strong>Store Number</strong>: 362037<br>-->
-</details>
-<details>
-<summary>Mililani</summary>
-<strong>Address</strong>: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
-<strong>Phone</strong>: (808) 623-9999<br>
-<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
-<!--<strong>Store Number</strong>: 342350<br>-->
-</details>
-<details>
-<summary>Moanalua</summary>
-<strong>Address</strong>: 930 Valkenburgh St, Honolulu, HI 96818<br>
-<strong>Phone</strong>: (808) 421-0888<br>
-<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
-</details>
-<details>
-<summary>Kailua</summary>
-<strong>Address</strong>: 108 Hekili St, Kailua, HI 96734<br>
-<strong>Phone</strong>: (808) 261-2770<br>
-<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
-<!--<strong>Store Number</strong>: 348162<br>-->
-</details>
+Decopac toys are $9.99 for each set and require a 24-hour notice in advance. <br>
 
 <hr>
 
@@ -156,3 +116,47 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 [Football](images/football-magnet.jpg) (Magnet)<br/>
 [Soccer](images/soccer-field.jpg) (Field)<br/>
 [Soccer](images/soccer-magnet.jpg) (Magnet)<br/>
+
+<!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
+
+***
+
+The above list are the Decopac toys available at the following Baskin Robbins locations: <br>
+<details>
+<summary>Kapolei</summary>
+<strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
+<strong>Phone</strong>: (808) 674-0131<br>
+<strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 363036<br>-->
+</details>
+<details>
+<summary>King St.</summary>
+<strong>Address</strong>: 1618 S King St, Honolulu, HI 96826<br>
+<strong>Phone</strong>: (808) 947-7300<br/>
+<strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 362037<br>-->
+</details>
+<details>
+<summary>Mililani</summary>
+<strong>Address</strong>: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
+<strong>Phone</strong>: (808) 623-9999<br>
+<strong>Hours</strong>: Mon-Thurs: 11 am - 10 pm; Fri-Sun: 10 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 342350<br>-->
+</details>
+<details>
+<summary>Moanalua</summary>
+<strong>Address</strong>: 930 Valkenburgh St, Honolulu, HI 96818<br>
+<strong>Phone</strong>: (808) 421-0888<br>
+<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
+</details>
+<details>
+<summary>Kailua</summary>
+<strong>Address</strong>: 108 Hekili St, Kailua, HI 96734<br>
+<strong>Phone</strong>: (808) 261-2770<br>
+<strong>Hours</strong>: Everyday 11 am - 10 pm<br>
+<!--<strong>Store Number</strong>: 348162<br>-->
+</details>
+
+***
+
+[BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br>
