@@ -52,7 +52,7 @@ table {
 /* LAYOUT STYLES */
 
 img {
-	width: 30%;
+	object-fit: cover;
 }
 
 body {
@@ -100,7 +100,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -239,6 +239,7 @@ td {
   font-weight: 300;
   text-align: center;
   border: 1px solid #ebebeb;
+	width: 30%;
 }
 
 form {

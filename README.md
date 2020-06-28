@@ -124,12 +124,13 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 
 <h1>Decopac List Grid View</h1>
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<a href="images/angryBirds2.jpg"><img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2</a> | <a href="images/avengers.jpg"><img width="500" alt="Avengers" src="images/avengers.jpg"> <br> Avengers</a>|<a href="images/avatar-airbender.jpg"><img width="500" alt="Avatar the Last Airbender" src="images/avatar-airbender.jpg">  Avatar the Last Airbender</a>|
-|<img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
-|<img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
-|<img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2|
+<table>
+  <tr>
+    <td><a href="images/angryBirds2.jpg"><img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  <br>Angry Birds 2</a></td>
+    <td><a href="images/avengers.jpg"><img width="500" alt="Avengers" src="images/avengers.jpg"> <br> Avengers</a></td>
+    <td><a href="images/avatar-airbender.jpg"><img width="500" alt="Avatar the Last Airbender" src="images/avatar-airbender.jpg"> <br> Avatar the Last Airbender</a></td>
+  </tr>
+</table>
 
 
 <!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
