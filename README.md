@@ -1,4 +1,4 @@
-Decopac toys are <div style="color: #ff00b3; font-weight: bold;">$9.99</div> each and require a <div style="color: #ff00b3; font-weight: bold;">24-hour notice</div> in advance. <br>
+Decopac toys are <span style="color: #ff00b3; font-weight: bold;">$9.99</span> each and require a <span style="color: #ff00b3; font-weight: bold;">24-hour notice</span> in advance. <br>
 
 <hr>
 
