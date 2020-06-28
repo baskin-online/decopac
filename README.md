@@ -126,9 +126,7 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<a href="images/angryBirds2.jpg"><img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2</a>
-|<a href="images/avengers.jpg"><img width="500" alt="Avengers" src="images/avengers.jpg"></a>  Avengers
-|<img width="500" alt="Avatar the Last Airbender" src="images/avatar-airbender.jpg">  <a href="images/avatar-airbender.jpg">Avatar the Last Airbender</a>|
+|<a href="images/angryBirds2.jpg"><img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2</a> | <a href="images/avengers.jpg"><img width="500" alt="Avengers" src="images/avengers.jpg"> <br> Avengers</a>|<a href="images/avatar-airbender.jpg"><img width="500" alt="Avatar the Last Airbender" src="images/avatar-airbender.jpg">  Avatar the Last Airbender</a>|
 |<img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
 |<img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
 |<img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2|
