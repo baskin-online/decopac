@@ -41,8 +41,9 @@ Below is a list of Decopac toys available at the following Baskin Robbins locati
 </details>
 
 <hr>
-<p>
-#Decopac List
+
+<h1>Decopac List</h1>
+
 <!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
 [Avengers](images/avengers.jpg) <br/>
