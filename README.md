@@ -2,6 +2,8 @@ Decopac toys are <span style="color: #ff00b3; font-weight: bold;">$9.99</span> e
 
 <hr>
 
+|<strong>[List View](https://baskin-online.github.io/decopac/)</strong>|[Grid View](https://baskin-online.github.io/decopac/#decopac-list-grid-view)|
+
 <h1>Decopac List</h1>
 
 <!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
@@ -119,6 +121,21 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 [Football](images/football-magnet.jpg) (Magnet)<br/>
 [Soccer](images/soccer-field.jpg) (Field)<br/>
 [Soccer](images/soccer-magnet.jpg) (Magnet)<br/>
+
+<h1>Decopac List Grid View</h1>
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2|
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2|
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2
+|<img width="1604" alt="Angry Birds 2" src="images/angryBirds2.jpg">  Angry Birds 2|
+
 
 <!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
 
