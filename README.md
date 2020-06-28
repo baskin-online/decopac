@@ -31,7 +31,6 @@ Below is a list of Decopac toys available at the following Baskin Robbins locati
 <strong>Address</strong>: 930 Valkenburgh St, Honolulu, HI 96818<br>
 <strong>Phone</strong>: (808) 421-0888<br>
 <strong>Hours</strong>: Everyday 11 am - 10 pm<br>
-</div>
 </details>
 <details>
 <summary>Kailua</summary>
@@ -42,7 +41,7 @@ Below is a list of Decopac toys available at the following Baskin Robbins locati
 </details>
 
 <hr>
-
+<p>
 #Decopac List
 <!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
