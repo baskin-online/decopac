@@ -1,16 +1,46 @@
-# Decopac List
+Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>
 
-The following is a list of Decopac toys available at the 
-[Kapolei](https://order.baskinrobbins.com/categories/br-362036), 
-[King St.](https://order.baskinrobbins.com/categories/br-362037), 
-[Moanalua](https://order.baskinrobbins.com/categories/br-343836), 
-[Mililani](https://order.baskinrobbins.com/categories/br-342350), and 
-[Kailua](https://order.baskinrobbins.com/categories/br-348162)
-Baskin Robbins locations.
+[BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br>
 
-Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br/>
-[BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br/>
-
+***
+Below is a list of Decopac toys available at the following Baskin Robbins locations: <br>
+<details>
+<summary>Kapolei</summary>
+**Address**: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
+**Phone**: (808) 674-0131<br>
+**Hours**: Everyday 10 am - 10 pm<br>
+<!--**Store Number**: 363036<br>-->
+</details>
+<details>
+<summary>King St.</summary>
+**Address**: 1618 S King St, Honolulu, HI 96826<br>
+**Phone**: (808) 947-7300<br/>
+**Hours**: Everyday 10 am - 10 pm<br>
+<!--**Store Number**: 362037<br>-->
+</details>
+<details>
+<summary>Mililani</summary>
+**Address**: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
+**Phone**: (808) 623-9999<br>
+**Hours**: Everyday 11 am - 10 pm<br>
+<!--**Store Number**: 342350<br>-->
+</details>
+<details>
+<summary>Moanalua</summary>
+**Address**: 930 Valkenburgh St, Honolulu, HI 96818<br>
+**Phone**: (808) 421-0888<br>
+**Hours**: Everyday 11 am - 10 pm<br>
+<!--**Store Number**: 343836<br>-->
+</details>
+<details>
+<summary>Kailua</summary>
+**Address**: 108 Hekili St, Kailua, HI 96734<br>
+**Phone**: (808) 261-2770<br>
+**Hours**: Everyday 11 am - 10 pm<br>
+<!--**Store Number**: 348162<br>-->
+</details>
+***
+##Decopac List
 <!--[Angry Birds](images/angryBirdsLaunching.jpg)<br/>-->
 [Angry Birds 2](images/angryBirds2.jpg)<br/>
 [Avengers](images/avengers.jpg) <br/>
@@ -114,7 +144,7 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 [Unicorn](images/unicorn.jpg) (Sheet Cake)<br/>
 [Unicorn](images/unicorn-round.jpg) (Two-Tiered Round Cake)<br/>
 
-### Sports: 
+### Sports
 [Baseball](images/baseball-field.jpg) (Field)<br/>
 [Baseball](images/basketball-magnet.jpg) (Magnet)<br/>
 [Basketball](images/basketball-court.jpg) (Court)<br/>

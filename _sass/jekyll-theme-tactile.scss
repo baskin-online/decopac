@@ -54,7 +54,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #6d6d6d;
+  color: #333333;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
 }
@@ -63,7 +63,7 @@ a {
   color: #0000ff;
 }
 a:hover {
-  color: #000099;
+  color: #ff00b3;
 }
 
 header {
@@ -75,7 +75,7 @@ header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 48px; font-weight: 900;
   line-height: 1.2;
-  color: #303030;
+  color: black;
   letter-spacing: -1px;
 }
 
@@ -258,7 +258,7 @@ h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d;
+  color: #303030;
 }
 
 h4 {
