@@ -124,12 +124,13 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 
 <h1>Decopac List Grid View</h1>
 
-<table>
-  <tr>
+<table id="decopac-grid">
     <td><a href="images/angryBirds2.jpg"><img width="500" alt="Angry Birds 2" src="images/angryBirds2.jpg">  <br>Angry Birds 2</a></td>
     <td><a href="images/avengers.jpg"><img width="500" alt="Avengers" src="images/avengers.jpg"> <br> Avengers</a></td>
     <td><a href="images/avatar-airbender.jpg"><img width="500" alt="Avatar the Last Airbender" src="images/avatar-airbender.jpg"> <br> Avatar the Last Airbender</a></td>
-  </tr>
+    <td><a href="images/babyBlocks.jpg"><img width="500" alt="B-A-B-Y Blocks" src="images/babyBlocks.jpg">  <br>B-A-B-Y Blocks</a></td>
+    <td><a href="images/images/barbie.jpg"><img width="500" alt="Barbie" src="images/barbie.jpg"> <br> Barbie</a></td>
+    <td><a href="images/batman.jpg"><img width="500" alt="Batman" src="images/batman.jpg"> <br> Batman</a></td>
 </table>
 
 
@@ -176,3 +177,52 @@ The above list are the Decopac toys available at the following Baskin Robbins lo
 ***
 
 [BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br>
+
+<script>
+function json2table(json, classes) {
+  var cols = Object.keys(json[0]);
+  
+  var headerRow = '';
+  var bodyRows = '';
+  
+  classes = classes || '';
+
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  cols.map(function(col) {
+    headerRow += '<th>' + capitalizeFirstLetter(col) + '</th>';
+  });
+
+  json.map(function(row) {
+    bodyRows += '<tr>';
+
+    cols.map(function(colName) {
+      bodyRows += '<td>' + row[colName] + '</td>';
+    })
+
+    bodyRows += '</tr>';
+  });
+
+  return '<table class="' +
+         classes +
+         '"><thead><tr>' +
+         headerRow +
+         '</tr></thead><tbody>' +
+         bodyRows +
+         '</tbody></table>';
+}
+
+/* How to use it */
+
+var defaultData = [
+  { country: 'China',         population: 1379510000 },
+  { country: 'India',         population: 1330780000 },
+  { country: 'United States', population:  324788000 },
+  { country: 'Indonesia',     population:  260581000 },
+  { country: 'Brazil',        population:  206855000 },
+];
+
+document.getElementById('decopac-grid').innerHTML = json2table(defaultData, 'table');
+</script>
