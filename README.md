@@ -2,7 +2,7 @@ Decopac toys are <span style="color: #ff00b3; font-weight: bold;">$9.99</span> e
 
 <hr>
 
-|<strong>[List View](https://baskin-online.github.io/decopac/)</strong>|[Grid View](https://baskin-online.github.io/decopac/#decopac-list-grid-view)|
+<!--|<strong>[List View](https://baskin-online.github.io/decopac/)</strong>|[Grid View](https://baskin-online.github.io/decopac/#decopac-list-grid-view)|-->
 
 <h1>Decopac List</h1>
 
@@ -122,6 +122,7 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
 [Soccer](images/soccer-field.jpg) (Field)<br/>
 [Soccer](images/soccer-magnet.jpg) (Magnet)<br/>
 
+<!--
 <h1>Decopac List Grid View</h1>
 
 <table id="decopac-grid">
@@ -132,7 +133,7 @@ Star Wars: [The Last Jedi - Ski Speeder](images/starWars-LastJedi.jpg) <br/>
     <td><a href="images/images/barbie.jpg"><img width="500" alt="Barbie" src="images/barbie.jpg"> <br> Barbie</a></td>
     <td><a href="images/batman.jpg"><img width="500" alt="Batman" src="images/batman.jpg"> <br> Batman</a></td>
 </table>
-
+-->
 
 <!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
 
@@ -177,52 +178,3 @@ The above list are the Decopac toys available at the following Baskin Robbins lo
 ***
 
 [BR Online Cakes](https://order.baskinrobbins.com/menu/cakes-pies/generic) <br>
-
-<script>
-function json2table(json, classes) {
-  var cols = Object.keys(json[0]);
-  
-  var headerRow = '';
-  var bodyRows = '';
-  
-  classes = classes || '';
-
-  function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-  }
-
-  cols.map(function(col) {
-    headerRow += '<th>' + capitalizeFirstLetter(col) + '</th>';
-  });
-
-  json.map(function(row) {
-    bodyRows += '<tr>';
-
-    cols.map(function(colName) {
-      bodyRows += '<td>' + row[colName] + '</td>';
-    })
-
-    bodyRows += '</tr>';
-  });
-
-  return '<table class="' +
-         classes +
-         '"><thead><tr>' +
-         headerRow +
-         '</tr></thead><tbody>' +
-         bodyRows +
-         '</tbody></table>';
-}
-
-/* How to use it */
-
-var defaultData = [
-  { country: 'China',         population: 1379510000 },
-  { country: 'India',         population: 1330780000 },
-  { country: 'United States', population:  324788000 },
-  { country: 'Indonesia',     population:  260581000 },
-  { country: 'Brazil',        population:  206855000 },
-];
-
-document.getElementById('decopac-grid').innerHTML = json2table(defaultData, 'table');
-</script>
