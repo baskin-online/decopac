@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="_scss/jekyll-theme-tactile.scss">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Decopac</title>
   </head>
   <body>
-    Decopac toys are <span style="color: #ff00b3; font-weight: bold;">$9.99</span> each and require a <span style="color: #ff00b3; font-weight: bold;">24-hour notice</span> in advance. <br>
+    <p>Decopac toys are <span style="color: #ff00b3; font-weight: bold;">
+      $9.99</span> each and require a <span style="color: #ff00b3;
+      font-weight: bold;">24-hour notice</span> in advance.</p> <br>
 
     <hr>
 
@@ -63,24 +65,8 @@
   </body>
 </html>
 
-<script>
-let data = [
-  { name:"Angry Birds 2", pic: "images/angryBirds2.jpg" },
-  { name:"Avengers", pic: "images/avengers.jpg" },
-  { name:"Avatar the Last Airbender", pic: "images/avatar-airbender.jpg" },
-  { name:"B-A-B-Y Blocks", pic: "images/avengers.jpg" },
-  { name:"Barbie", pic: "images/barbie.jpg" },
-  { name:"Batman", pic: "images/batman.jpg" },
-  { name:"Beach Chair & Umbrella", pic: "images/beachChairAndUmbrella.jpg" },
-  { name:"Beach Flip Flops", pic: "images/beachFlipFlops.jpg" },
-  { name:"Big Hero 6", pic: "images/bigHero6.jpg" },
-  { name:"Bubble Guppies", pic: "images/bubbleGuppies.jpg" },
-  { name:"Captain America", pic: "images/captainAmerica.jpg" },
-  { name:"Cars", pic: "images/cars.jpg" },
-  { name:"Casino", pic: "images/casino.jpg" },
-  { name:"Construction Dig", pic: "images/constructionDig.jpg" },
-  ];
-
+<script type="text/javascript" src="decopac-list-data.json">
+let data = JSON.parse(decoData);
 let list1 = document.getElementById('list1');
 let element = document.createElement('ul');
 for (let i = 0; i < data.length; i++) {
