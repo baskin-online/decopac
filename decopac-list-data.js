@@ -36,7 +36,7 @@ const decoData = [
   { name: "Graduation Cap", pic: "images/graduationCap.jpg" },
   { name: "Happy Birthday Neon Candles", pic: "images/happyBirthdayNeonCandles.jpg" },
   { name: "Hello Kitty (Head)", pic: "images/helloKitty.jpg" },
-  { name: "Hello Kitty (Stamper)", pic: "images/helloKitty-stamper.jp" },
+  { name: "Hello Kitty (Stamper)", pic: "images/helloKitty-stamper.jpg" },
   { name: "High School Musical", pic: "images/highSchoolMusical.jpg" },
   { name: "Horses", pic: "images/horses.jpg" },
   { name: "Hot Wheels", pic: "images/hotWheels.jpg" },
