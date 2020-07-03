@@ -1,4 +1,4 @@
-@import "rouge-base16-dark";
+/*@import "rouge-base16-dark";*/
 @import url('https://fonts.googleapis.com/css?family=Chivo:900');
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -25,6 +25,20 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	border: 0;
 }
+
+.pink {
+	color: #ff00b3;
+	font-weight: bold;
+}
+
+.myindent1 {
+	margin-left: 30px;
+}
+
+.myindent2 {
+	margin-left: 17px;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -61,7 +75,7 @@ body {
   line-height: 1.5;
   color: #333333;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #e7e7e7 url(images/body-bg.png) 0 0 repeat;
 }
 
 a {
@@ -96,7 +110,7 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
 .inner {
@@ -163,13 +177,13 @@ a.button span {
 }
 
 #download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
+  background: transparent url(images/zip-icon.png) 12px 50% no-repeat;
 }
 #download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
+  background: transparent url(images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+  background: transparent url(images/octocat-icon.png) 12px 50% no-repeat;
 }
 #view-on-github {
   margin-right: 0;
@@ -214,7 +228,7 @@ hr {
   padding-bottom: 1em;
   margin-top: 1em;
   line-height: 1px;
-  background: transparent url('../images/hr.png') 50% 0 no-repeat;
+  background: transparent url('images/hr.png') 50% 0 no-repeat;
   border: none;
 }
 
@@ -328,7 +342,7 @@ footer {
   margin-top: 40px;
   font-size: 13px;
   color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  background: transparent url('images/hr.png') 0 0 no-repeat;
 	display: none;
 	visibility: hidden;
 }

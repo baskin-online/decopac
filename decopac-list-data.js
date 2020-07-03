@@ -1,4 +1,4 @@
-decoData = [
+const decoData = [
   { name: "Angry Birds 2", pic: "images/angryBirds2.jpg" },
   { name: "Avengers", pic: "images/avengers.jpg" },
   { name: "Avatar the Last Airbender", pic: "images/avatar-airbender.jpg" },
@@ -99,7 +99,7 @@ decoData = [
   { name: "Unicorn (Two-Tiered Round Cake)", pic: "images/unicorn-round.jpg" },
 ];
 
-decoSports = [
+const decoSports = [
   { name: "Baseball (Field)", pic: "images/baseball-field.jpg" },
   { name: "Baseball (Magnet)", pic: "images/basketball-magnet.jpg" },
   { name: "Basketball (Court)", pic: "images/basketball-court.jpg" },
