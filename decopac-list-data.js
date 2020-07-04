@@ -74,7 +74,7 @@ const decoData = [
   { name: "Shopkins", pic: "images/shopkins.jpg" },
   { name: "Skylanders", pic: "images/skylanders.jpg" },
   { name: "Smurfs", pic: "images/smurfs.jpg" },
-  { name: "Snoopy (Joe Cool)", pic: "images/snoopy.jpg" },
+  { name: "Snoopy (The Peanuts Movie)", pic: "images/snoopy.jpg" },
   { name: "Spider-Man (Half Round Cake)", pic: "images/spiderMan-head.jpg" },
   { name: "Spider-Man (Sheet Cake)", pic: "images/spiderMan-head-sheetcake.jpg" },
   { name: "Spongebob Krusty Krab", pic: "images/spongebob-KrustyKrab.jpg" },
