@@ -91,33 +91,23 @@
 
   <script type="text/javascript" src="decopac-list-data.js"></script>
   <script type="text/javascript">
-    let list1 = document.getElementById('list1');
-    let element1 = document.createElement('div');
-    let temp = '<div class="ui four cards stackable">';
-    for (let i = 0; i < decoData.length; i++) {
-      temp += '<div class="ui raised card">';
-      temp += '<a class="image" href="'+ decoData[i].pic + '">';
-      temp += '<img src="' + decoData[i].pic +'"> </a>';
-      temp += '<div class"content">';
-      temp += '<a class="center aligned header" href="' + decoData[i].pic+ '">'
-      + decoData[i].name + '</a> </div></div>';
-      }
-      temp += '</div>';
-      element1.innerHTML = temp;
-      list1.appendChild(element1);
-
-      let list2 = document.getElementById('list2');
-      let element2 = document.createElement('div');
-      temp = '<div class="ui four cards stackable">';
-      for (let i = 0; i < decoSports.length; i++) {
+    function buildHTML(data, id) {
+      let list1 = document.getElementById(id);
+      let element1 = document.createElement('div');
+      let temp = '<div class="ui four cards stackable">';
+      for (let i = 0; i < data.length; i++) {
         temp += '<div class="ui raised card">';
-        temp += '<a class="image" href="'+ decoSports[i].pic + '">';
-        temp += '<img src="' + decoSports[i].pic +'"> </a>';
-        temp += '<div class"content">';
-        temp += '<a class="center aligned header" href="' + decoSports[i].pic+ '">'
-        + decoSports[i].name + '</a> </div></div>';
+        temp += '<a class="image" href="'+ data[i].pic + '">';
+        temp += '<img style="height: 150px; object-fit: contain;" src="' + data[i].pic +'"> </a>';
+        temp += '<div class="content">';
+        temp += '<a class="ui header" style="text-align: center; font-size: 14px;" href="' + data[i].pic+ '">' + data[i].name + '</a></div></div>';
         }
         temp += '</div>';
-        element2.innerHTML = temp;
-        list2.appendChild(element2);
+        element1.innerHTML = temp;
+        list1.appendChild(element1);
+    }
+
+    buildHTML(decoData, 'list1');
+    buildHTML(decoSports, 'list2');
+
       </script>
