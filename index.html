@@ -15,7 +15,7 @@
         <hr>
         <p>Decopac toys are <span class="pink">$9.99</span> each and require a
           <span class="pink">24-hour notice</span> in advance.</p>
-        <hr>
+          <hr>
 
           <!--|<strong>[List View](https://baskin-online.github.io/decopac/)</strong>|[Grid View](https://baskin-online.github.io/decopac/#decopac-list-grid-view)|-->
 
@@ -87,19 +87,18 @@
 
   <script type="text/javascript" src="decopac-list-data.js"></script>
   <script type="text/javascript">
-    let list1 = document.getElementById('list1');
-    let element1 = document.createElement('ul');
-    for (let i = 0; i < decoData.length; i++) {
-      element1.innerHTML += '<li style="list-style-type: none;"> <a href="'
-        + decoData[i].pic + '">' + decoData[i].name + '</a> </li>';
-      }
-      list1.appendChild(element1);
 
-      let list2 = document.getElementById('list2');
-      let element2 = document.createElement('ul');
-      for (let i = 0; i < decoSports.length; i++) {
-        element2.innerHTML += '<li style="list-style-type: none;"> <a href="'
-          + decoSports[i].pic + '">' + decoSports[i].name + '</a> </li>';
+    function buildHTML(data, id) {
+      let list = document.getElementById(id);
+      let element = document.createElement('ul');
+      for (let i = 0; i < data.length; i++) {
+        element.innerHTML += '<li style="list-style-type: none;"> <a href="'
+          + data[i].pic + '">' + data[i].name + '</a> </li>';
         }
-        list2.appendChild(element2);
-      </script>
+        list.appendChild(element);
+      }
+
+      buildHTML(decoData, 'list1');
+      buildHTML(decoSports, 'list2');
+
+    </script>
