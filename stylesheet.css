@@ -26,6 +26,10 @@ time, mark, audio, video {
 	border: 0;
 }
 
+.biggerfont {
+	font-size: 24px;
+}
+
 .pink {
 	color: #ff00b3;
 	font-weight: bold;

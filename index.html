@@ -13,13 +13,13 @@
     <div class="inner">
       <section id="main_content">
         <hr>
-        <p>Decopac toys are <span class="pink">$9.99</span> each and require a
+        <p class="biggerfont">Decopac toys are <span class="pink">$9.99</span> each and require a
           <span class="pink">24-hour notice</span> in advance.</p>
           <hr>
 
           <div class="ui fluid two item secondary pointing menu">
-            <a class="active item" href="https://baskin-online.github.io/decopac/">List View</a>
-            <a class="item" href="https://baskin-online.github.io/decopac/grid">Grid View</a>
+            <a style="font-size: 32px" class="active item" href="https://baskin-online.github.io/decopac/">List View</a>
+            <a style="font-size: 32px" class="item" href="https://baskin-online.github.io/decopac/grid">Grid View</a>
           </div>
 
           <h1>Decopac List</h1>
@@ -95,7 +95,7 @@
       let list = document.getElementById(id);
       let element = document.createElement('ul');
       for (let i = 0; i < data.length; i++) {
-        element.innerHTML += '<li style="list-style-type: none;"> <a href="'
+        element.innerHTML += '<li class="biggerfont" style="list-style-type: none;"> <a href="'
           + data[i].pic + '">' + data[i].name + '</a> </li>';
         }
         list.appendChild(element);
