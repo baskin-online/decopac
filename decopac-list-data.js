@@ -44,7 +44,6 @@ const decoData = [
   { name: "iCarly", pic: "images/iCarly.jpg" },
   { name: "Incredibles 2", pic: "images/incredibles2.jpg" },
   { name: "Jake and the Neverland Pirates", pic: "images/jakeAndNeverlandPirates.jpg" },
-  { name: "Kung Fu Panda", pic: "images/kung-fu-panda-kaboom.jpg" },
   { name: "Littlest Pet Shop", pic: "images/littlest-pet-shop.jpg" },
   { name: "Madagascar (Three Ring Circus)", pic: "images/madagascar-3-ring-circus.jpeg" },
   { name: "Megamind", pic: "images/megamind.jpg" },
