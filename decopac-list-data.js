@@ -57,6 +57,7 @@ const decoData = [
   { name: "Monster Truck (#15334)", pic: "images/monsterTruck.jpg" },
   { name: "Monster University", pic: "images/monsterUniversity.jpg" },
   { name: "My Little Pony", pic: "images/myLittlePony.jpg" },
+  { name: "Mystical Mermaid", pic: "images/mysticalMermaid.jpg" },
   { name: "Paw Patrol", pic: "images/pawPatrol.jpg" },
   { name: "Peppa Pig", pic: "images/peppaPig.jpg" },
   { name: "Phineas and Ferb", pic: "images/phineasAndFerb.jpg" },
