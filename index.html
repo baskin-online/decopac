@@ -13,27 +13,27 @@
     <div class="inner">
       <section id="main_content">
         <hr>
-        <p class="biggerfont">Decopac toys are <span class="pink">$9.99</span> each and require a
+        <p>Decopac toys are <span class="pink">$9.99</span> each and require a
           <span class="pink">24-hour notice</span> in advance.</p>
           <hr>
 
           <div class="ui fluid two item secondary pointing menu">
-            <a style="font-size: 32px" class="active item" href="https://baskin-online.github.io/decopac/">List View</a>
-            <a style="font-size: 32px" class="item" href="https://baskin-online.github.io/decopac/grid">Grid View</a>
+            <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/">List View</a>
+            <a class="biggerfont item" href="https://baskin-online.github.io/decopac/grid">Grid View</a>
           </div>
 
-          <h1 style="font-size: 36px" >Decopac List (List View)</h1>
+          <h1>Decopac List (List View)</h1>
 
           <div id="list1"></div>
-          <h1 style="font-size: 30px" >Sports</h1>
+          <h1>Sports</h1>
           <div id="list2"></div>
 
           <!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
 
           <hr>
 
-          <p class="biggerfont">The above list are the Decopac toys available at the following Baskin Robbins locations:</p>
-          <details class="myindent1 biggerfont">
+          <p>The above list are the Decopac toys available at the following Baskin Robbins locations:</p>
+          <details class="myindent1">
             <summary>Kapolei</summary>
             <div class="myindent2">
               <strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
@@ -42,7 +42,7 @@
               <!--<strong>Store Number</strong>: 363036<br>-->
             </div>
           </details>
-          <details class="myindent1 biggerfont">
+          <details class="myindent1">
             <summary>King St.</summary>
             <div class="myindent2">
               <strong>Address</strong>: 1618 S King St, Honolulu, HI 96826<br>
@@ -51,7 +51,7 @@
               <!--<strong>Store Number</strong>: 362037<br>-->
             </div>
           </details>
-          <details class="myindent1 biggerfont">
+          <details class="myindent1">
             <summary>Mililani</summary>
             <div class="myindent2">
               <strong>Address</strong>: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
@@ -60,7 +60,7 @@
               <!--<strong>Store Number</strong>: 342350<br>-->
             </div>
           </details>
-          <details class="myindent1 biggerfont">
+          <details class="myindent1">
             <summary>Moanalua</summary>
             <div class="myindent2">
               <strong>Address</strong>: 930 Valkenburgh St, Honolulu, HI 96818<br>
@@ -68,7 +68,7 @@
               <strong>Hours</strong>: Everyday 11 am - 10 pm<br>
             </div>
           </details>
-          <details class="myindent1 biggerfont">
+          <details class="myindent1">
             <summary>Kailua</summary>
             <div class="myindent2">
               <strong>Address</strong>: 108 Hekili St, Kailua, HI 96734<br>
@@ -79,7 +79,7 @@
           </details>
 
           <hr>
-          <a class="biggerfont" href="https://order.baskinrobbins.com/menu/cakes-pies/generic">BR Online Cakes</a> <br>
+          <a href="https://order.baskinrobbins.com/menu/cakes-pies/generic">BR Online Cakes</a> <br>
           <hr>
 
         </section>
@@ -95,7 +95,7 @@
       let list = document.getElementById(id);
       let element = document.createElement('ul');
       for (let i = 0; i < data.length; i++) {
-        element.innerHTML += '<li class="biggerfont" style="list-style-type: none;"> <a href="'
+        element.innerHTML += '<li style="list-style-type: none;"> <a href="'
           + data[i].pic + '">' + data[i].name + '</a> </li>';
         }
         list.appendChild(element);
