@@ -7,21 +7,14 @@ function buildHeader() {
     <p>Decopac toys are <span class="pink">$9.99</span> each and require a \
         <span class="pink">24-hour notice</span> in advance. \
     </p> \
-    <hr>';
+    <hr> \
+    <div class="ui fluid two item secondary pointing menu"> \
+        <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/">List View</a> \
+        <a class="biggerfont activeGrid item" href="https://baskin-online.github.io/decopac/grid">Grid View</a> \
+    </div>';
     if (href.includes('grid')) {
-        element.innerHTML +=
-            '<div class="ui fluid two item secondary pointing menu"> \
-                <a class="biggerfont item" href="https://baskin-online.github.io/decopac/">List View</a> \
-                <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/grid">Grid View</a> \
-            </div>';
-    } else {
-        element.innerHTML +=
-            '<div class="ui fluid two item secondary pointing menu"> \
-                <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/">List View</a> \
-                <a class="biggerfont item" href="https://baskin-online.github.io/decopac/grid">Grid View</a> \
-            </div>';
+        element.innerHTML = element.innerHTML.replace("active", "");
+        element.innerHTML = element.innerHTML.replace("activeGrid", "active");
     }
-    // element.innerHTML +=
-    // '</div>';
     header.appendChild(element);
 }
