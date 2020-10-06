@@ -88,7 +88,6 @@ const decoData = [
   { name: "Teenage Mutant Ninja Turtles", pic: "images/teenageMutantNinjaTurtles.jpg" },
   { name: "Teen Beach Movie", pic: "images/teenBeachMovie.jpg" },
   { name: "Thomas the Train", pic: "images/thomasTheTrain.jpg" },
-  { name: "Tinkerbell (Flower)", pic: "images/tinkerBell-Flower.jpg" },
   { name: "Tinkerbell (Periwinkle)", pic: "images/tinkerBell-Periwinkle.jpg" },
   { name: "Tom and Jerry", pic: "images/tomAndJerry.jpeg" },
   { name: "Toy Story 4", pic: "images/toyStory4.jpg" },
