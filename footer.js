@@ -3,7 +3,7 @@ function buildFooter() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<hr> \
-    <p>The above list are the Decopac toys available at the following Baskin Robbins locations:</p> \
+    <p>Above is a list of Decopac toys available at the following Baskin Robbins locations:</p> \
     <details class="myindent1"> \
         <summary>Kapolei</summary> \
         <div class="myindent2"> \
@@ -50,6 +50,7 @@ function buildFooter() {
     </details> \
     <hr> \
     <a href="https://order.baskinrobbins.com/menu/cakes-pies/generic">BR Online Cakes</a> <br> \
-    <hr>'
+    <hr> \
+    <br>'
     footer.appendChild(element);
 }

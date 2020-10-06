@@ -12,20 +12,15 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div>
-        <div class="inner">
-            <div id="header"></div>
-            <section id="main_content">
-                <h1>Decopac List (List View)</h1>
+    <div class="ui container">
+        <div id="header"></div>
 
-                <div id="list1"></div>
-                <h1>Sports</h1>
-                <div id="list2"></div>
-
-                <!--Available at: [https://baskin-online.github.io/decopac/](https://baskin-online.github.io/decopac/)<br>-->
-            </section>
-            <div id="footer"></div>
-        </div>
+        <h1>Decopac List (List View)</h1>
+        <div id="list1"></div>
+        <h1>Sports</h1>
+        <div id="list2"></div>
+        
+        <div id="footer"></div>
     </div>
 </body>
 </html>
@@ -36,7 +31,7 @@ function buildHTML(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('ul');
     for (let i = 0; i < data.length; i++) {
-        element.innerHTML += '<li style="list-style-type: none;"> <a href="'
+        element.innerHTML += '<li> <a href="'
         + data[i].pic + '">' + data[i].name + '</a> </li>';
     }
     list.appendChild(element);
