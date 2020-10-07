@@ -4,16 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
 
 body{
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  line-height: 1.5;
-  font-size: 1.25rem;
-  color: #333333;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  /* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
-  background-color: #e0e0e0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+	line-height: 1.5;
+	font-size: 1.25rem;
+	color: #333333;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
+	background-color: #e0e0e0;
+	padding: 25px;
 }
 
-h1, a.item{
+h1, a.item {
 	font-family: 'Oxygen';
 }
 
@@ -39,15 +40,29 @@ li {
 }
 
 a {
-  color: #0000ff;
+	color: #0000ff;
 }
 
 a:hover {
-  color: #ff00b3;
+	color: #ff00b3;
 }
 
 hr {
 	border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(175, 175, 175, 0.75), rgba(0, 0, 0, 0));
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(175, 175, 175, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media only screen and (max-aspect-ratio: 2/3) {
+	body {
+		font-size: 2.0rem;
+	}
+
+	a.item {
+		font-size: 2.5rem;
+	}
+
+	h1 {
+		font-size: 3.0rem;
+	}
 }
