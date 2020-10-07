@@ -11,7 +11,6 @@ body{
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
 	background-color: #e0e0e0;
-	padding: 25px;
 }
 
 h1, a.item {
@@ -57,17 +56,16 @@ hr {
 	body {
 		font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 		line-height: 1.5;
-		font-size: 3.0rem;
+		font-size: 2.75rem;
 		color: #333333;
 		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 		/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
 		background-color: #e0e0e0;
-		padding: 25px;
 	}
 
 	a.item {
 		font-family: 'Oxygen';
-		font-size: 3.5rem;
+		font-size: 3.0rem;
 	}
 
 	h1 {
