@@ -12,7 +12,6 @@ const decoData = [
   { name: "Captain America", pic: "images/captainAmerica.jpg" },
   { name: "Cars", pic: "images/cars.jpg" },
   { name: "Casino", pic: "images/casino.jpg" },
-  { name: "Construction Dig", pic: "images/constructionDig.jpg" },
   { name: "Despicable Me (Beach Party)", pic: "images/despicableMeBeach.jpg" },
   { name: "Despicable Me (Hula Party)", pic: "images/despicableMeHula.jpg" },
   { name: "Dinosaur (The Good Dinosaur)", pic: "images/dinosaur-theGoodDinosaur.jpeg" },
