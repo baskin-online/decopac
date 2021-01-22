@@ -33,12 +33,12 @@
 function buildHTML(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable" style="padding: 0px">';
+    let temp = '<div class="ui four cards stackable centered" style="padding: 0px">';
     for (let i = 0; i < data.length; i++) {
         temp +=
-        '<div class="ui raised card" style="padding: 0px"> \
+        '<div class="ui raised card" style="padding: 0px; margin: 0.5rem"> \
             <a class="image" href="'+ data[i].pic + '"> \
-                <img style="height: 130px; object-fit: contain; background-color: white;" src="' + data[i].pic +'"> \
+                <img style="height: 13.5rem; object-fit: contain; background-color: white;" src="' + data[i].pic +'"> \
             </a> \
             <div class="content" style="padding: 6px 4px 6px 4px;"> \
                 <a class="ui header" style="text-align: center; font-size: 14px;" href="' + data[i].pic+ '">' + data[i].name + '</a> \
