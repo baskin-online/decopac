@@ -9,8 +9,8 @@ function buildHeader() {
     </p> \
     <hr> \
     <div class="ui fluid two item secondary pointing menu"> \
-        <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/">List View</a> \
-        <a class="biggerfont activeGrid item" href="https://baskin-online.github.io/decopac/grid">Grid View</a> \
+        <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/">List</a> \
+        <a class="biggerfont activeGrid item" href="https://baskin-online.github.io/decopac/grid">Catalog</a> \
     </div>';
     if (href.includes('grid')) {
         element.innerHTML = element.innerHTML.replace("active", "");

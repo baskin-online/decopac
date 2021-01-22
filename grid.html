@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Decopac Grid</title>
+    <title>Decopac Catalog</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
@@ -15,7 +15,7 @@
     <div style="padding: 25px">
         <div id="header"></div>
 
-        <h1>Decopac List (Grid View)</h1>
+        <h1>Decopac Catalog</h1>
         <br>
         <div id="list1"></div>
         <br>
@@ -36,7 +36,7 @@ function buildHTML(data, id) {
     let temp = '<div class="ui four cards stackable centered" style="padding: 0px">';
     for (let i = 0; i < data.length; i++) {
         temp +=
-        '<div class="ui raised card" style="padding: 0px; margin: 0.5rem"> \
+        '<div class="ui raised card" style="padding: 0px; margin: 0.5rem 0.9rem"> \
             <a class="image" href="'+ data[i].pic + '"> \
                 <img style="height: 150px; object-fit: contain; background-color: white;" src="' + data[i].pic +'"> \
             </a> \
