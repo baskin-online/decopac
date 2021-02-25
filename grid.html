@@ -6,22 +6,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
     <script type="text/javascript" src="decopac-list-data.js"></script>
     <script type="text/javascript" src="header.js"></script>
     <script type="text/javascript" src="footer.js"></script>
+    <script type="text/javascript" src="searchBar.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div style="padding: 25px">
+    <div style="padding: 2rem">
         <div id="header"></div>
+        <br>
+        <div class="ui two column stackable grid">
+            <div class="column">
+                <h1>Decopac List</h1>
+            </div>
+            <div class="right floated right aligned column">
+                <div id="searchBar"></div>
+            </div>
+        </div>
+        <br>
+        <div id="filteredList"></div>
 
-        <h1>Decopac Catalog</h1>
-        <br>
-        <div id="list1"></div>
-        <br>
-        <h1>Sports</h1>
-        <br>
-        <div id="list2"></div>
+        <div id="removeIfFilter">
+            <div id="list1"></div>
+            <br>
+            <h1>Sports</h1>
+            <br>
+            <div id="list2"></div>
+        </div>
         <br>
 
         <div id="footer"></div>
@@ -52,6 +65,7 @@ function buildHTML(data, id) {
 
 buildHeader();
 buildFooter();
+buildSearchBar();
 buildHTML(decoData, 'list1');
 buildHTML(decoSports, 'list2');
 

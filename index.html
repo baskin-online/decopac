@@ -9,16 +9,27 @@
     <script type="text/javascript" src="decopac-list-data.js"></script>
     <script type="text/javascript" src="header.js"></script>
     <script type="text/javascript" src="footer.js"></script>
+    <script type="text/javascript" src="searchBar.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div style="padding: 25px">
+    <div style="padding: 2rem">
         <div id="header"></div>
-
-        <h1>Decopac List</h1>
-        <div id="list1"></div>
-        <h1>Sports</h1>
-        <div id="list2"></div>
+        <br>
+        <div class="ui two column stackable grid">
+            <div class="column">
+                <h1>Decopac List</h1>
+            </div>
+            <div class="right floated right aligned column">
+                <div id="searchBar"></div>
+            </div>
+        </div>
+        <div id="filteredList"></div>
+        <div id="removeIfFilter">
+            <div id="list1"></div>
+            <h1>Sports</h1>
+            <div id="list2"></div>
+        </div>
 
         <div id="footer"></div>
     </div>
@@ -39,6 +50,7 @@ function buildHTML(data, id) {
 
 buildHeader();
 buildFooter();
+buildSearchBar();
 buildHTML(decoData, 'list1');
 buildHTML(decoSports, 'list2');
 
