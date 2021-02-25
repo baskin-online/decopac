@@ -3,7 +3,7 @@ function buildSearchBar() {
     let searchBar = document.getElementById('searchBar');
     let element = document.createElement('div');
     element.innerHTML +=
-    '<div class="ui fluid search"> \
+    '<div class="ui large fluid search"> \
         <div class="ui icon input"> \
             <input id="searchInput" class="prompt" type="text" placeholder="Search...""> \
             <i class="search icon"></i> \
