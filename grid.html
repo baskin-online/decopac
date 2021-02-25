@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div style="padding: 2rem">
+    <div>
         <div id="header"></div>
         <br>
         <div class="ui two column stackable grid">
@@ -46,15 +46,15 @@
 function buildHTML(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable centered" style="padding: 0px">';
+    let temp = '<div class="ui four cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         temp +=
-        '<div class="ui raised card" style="padding: 0px; margin: 0.5rem 0.9rem"> \
+        '<div class="ui raised card"> \
             <a class="image" href="'+ data[i].pic + '"> \
-                <img style="height: 150px; object-fit: contain; background-color: white;" src="' + data[i].pic +'"> \
+                <img class="decopacImage" src="' + data[i].pic +'"> \
             </a> \
-            <div class="content" style="padding: 6px 4px 6px 4px;"> \
-                <a class="ui header" style="text-align: center; font-size: 14px;" href="' + data[i].pic+ '">' + data[i].name + '</a> \
+            <div class="content" style="padding: 0.5rem;"> \
+                <a class="ui header" href="' + data[i].pic+ '">' + data[i].name + '</a> \
             </div> \
         </div>';
     }

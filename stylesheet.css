@@ -11,10 +11,22 @@ body{
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
 	background-color: #e0e0e0;
+	padding: 2rem;
 }
 
 h1, a.item {
 	font-family: 'Oxygen';
+}
+
+a.ui.header {
+	font-size: 1rem !important;
+	text-align: center;
+}
+
+.decopacImage {
+	height: 150px !important;
+	object-fit: contain;
+	background-color: white;
 }
 
 .biggerfont {
@@ -54,22 +66,19 @@ hr {
 
 @media only screen and (max-aspect-ratio: 2/3) {
 	body {
-		font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 		line-height: 1.5;
+		/* font-size: 2.75rem; */
+	}
+
+	a, p, #footer {
 		font-size: 2.75rem;
-		color: #333333;
-		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-		/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
-		background-color: #e0e0e0;
 	}
 
 	a.item {
-		font-family: 'Oxygen';
 		font-size: 3.0rem;
 	}
 
 	h1 {
-		font-family: 'Oxygen';
 		font-size: 4.0rem;
 	}
 }
