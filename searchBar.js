@@ -15,29 +15,33 @@ function buildSearchBar() {
 
 function filterData(e) {
     const input = e.target.value;
-    let filteredData = [];
-    for (let item of decoData) {
-        if (item['name'].toLowerCase().includes(input.toLowerCase()) ||
-        item['description'].toLowerCase().includes(input.toLowerCase())) {
-            filteredData.push(item);
+    const hiddenDiv = document.getElementById('removeIfFilter');
+    if (input.length == 0) {
+        hiddenDiv.hidden = false;
+    } else {
+        hiddenDiv.hidden = true;
+        let filteredData = [];
+        for (let item of decoData) {
+            if (item['name'].toLowerCase().includes(input.toLowerCase()) ||
+            item['description'].toLowerCase().includes(input.toLowerCase())) {
+                filteredData.push(item);
+            }
         }
-    }
-    for (let item of decoSports) {
-        if (item['name'].toLowerCase().includes(input.toLowerCase()) |
-        item['description'].toLowerCase().includes(input.toLowerCase())) {
-            filteredData.push(item);
+        for (let item of decoSports) {
+            if (item['name'].toLowerCase().includes(input.toLowerCase()) |
+            item['description'].toLowerCase().includes(input.toLowerCase())) {
+                filteredData.push(item);
+            }
         }
-    }
-    // console.log(filteredData);
-    const removeDiv = document.getElementById('removeIfFilter');
-    removeDiv ? removeDiv.remove() : null;
-    const tempDiv = document.getElementById('temp');
-    tempDiv ? tempDiv.remove() : null;
+        // removes old list
+        const tempDiv = document.getElementById('temp');
+        tempDiv ? tempDiv.remove() : null;
 
-    const filteredListDiv = document.getElementById('filteredList');
-    let element = document.createElement('div');
-    element.setAttribute('id', 'temp');
-    filteredListDiv.appendChild(element);
-    buildHTML(filteredData, 'temp');
+        const filteredListDiv = document.getElementById('filteredList');
+        let element = document.createElement('div');
+        element.setAttribute('id', 'temp');
+        filteredListDiv.appendChild(element);
+        buildHTML(filteredData, 'temp');
+    }
     return filteredData;
 }

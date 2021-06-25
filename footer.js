@@ -3,7 +3,7 @@ function buildFooter() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<hr> \
-    <p>The Decopac toys above are available at the following Baskin Robbins locations:</p> \
+    <p>The Decoset toys above are available at the following Baskin Robbins locations:</p> \
     <details class="myindent1"> \
         <summary>Kapolei</summary> \
         <div class="myindent2"> \
