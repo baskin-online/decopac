@@ -84,7 +84,7 @@ const decoData = [
   { name: "Spider-Man (Half Round Cake)", description: "Ultimate Light Up Eyes", pic: "images/spiderMan-head.jpg" },
   { name: "Spider-Man (Sheet Cake)", description: "Spider-Man Ultimate Light Up Eyes, CC-91", pic: "images/spiderMan-head-sheetcake.jpg" },
   { name: "Spongebob Krusty Krab ($15)", description: "", pic: "images/spongebob-KrustyKrab.jpg" },
-  { name: "Spongebob Krabby Patty", description: "SpongeBob SquarePants Krabby Patty, CC-118", pic: "images/spongebob-krabbyPatty-br.png" },
+  // { name: "Spongebob Krabby Patty", description: "SpongeBob SquarePants Krabby Patty, CC-118", pic: "images/spongebob-krabbyPatty-br.png" },
   { name: "Spongebob Pirates", description: "", pic: "images/spongebob-Pirates.jpg" },
   { name: "Star Wars: Darth Vader", description: "Darth Vader", pic: "images/starWars-DarthVader.jpg" },
   { name: "Star Wars: The Force Awakens", description: "The Force Awakens", pic: "images/starWars-ForceAwakens.jpg" },
