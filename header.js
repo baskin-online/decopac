@@ -4,7 +4,7 @@ function buildHeader() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<hr> \
-    <p style="text-align: center;">Decoset toys are <span class="pink">$9.99</span> each and require a \
+    <p style="text-align: center;">Decoset toys are <span class="pink">$10.99</span> each and require a \
         <span class="pink">24-hour notice</span> in advance. \
     </p> \
     <hr> \

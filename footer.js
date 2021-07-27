@@ -49,7 +49,7 @@ function buildFooter() {
         </div> \
     </details> \
     <hr> \
-    <a href="https://order.baskinrobbins.com/menu/cakes-pies">BR Online Cakes</a> <br> \
+    <a href="https://order.baskinrobbins.com/menu/cakes-pies" target="_blank">BR Online Cakes</a> <br> \
     <hr> \
     <br>'
     footer.appendChild(element);
