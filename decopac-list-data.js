@@ -4,7 +4,7 @@ const decoData = [
   { name: "Avatar the Last Airbender", description: "Windrider", pic: "images/avatar-airbender.jpg" },
   { name: "B-A-B-Y Blocks", description: "B-A-B-Y Blocks", pic: "images/babyBlocks.jpg" },
   { name: "Baby Sharks", description: "", pic: "images/babySharks.jpg" },
-  { name: "Barbie", description: "Dream House", pic: "images/barbie-dreamHouse.jpg" },
+  { name: "Barbie (Dream House)", description: "Dream House Adventures", pic: "images/barbie-dreamHouse.jpg" },
   { name: "Batman", description: "Batman: Chase Is On, CC-104", pic: "images/batman.jpg" },
   { name: "Beach Chair & Umbrella", description: "Beach Chair & Umbrella", pic: "images/beachChairAndUmbrella.jpg" },
   { name: "Beach Flip Flops", description: "Summer Flip Flops", pic: "images/beachFlipFlops.jpg" },
