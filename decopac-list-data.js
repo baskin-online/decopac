@@ -72,7 +72,6 @@ const decoData = [
   { name: "Powerpuff Girls", description: "The Day is Saved!", pic: "images/powerPuffGirls.jpg" },
   { name: "Puss in Boots (Humpty and Puss)", description: "", pic: "images/puss-in-boots.jpg" },
   { name: "Sesame Street (Airplane - Elmo & Grover)", description: "", pic: "images/sesameSt-Airplane.jpg" },
-  { name: "Sesame Street (Elmo’s Boat)", description: "", pic: "images/sesameSt-elmosBoat.jpg" },
   { name: "Sesame Street (Elmo’s World)", description: "", pic: "images/sesameSt-elmosWorld.jpg" },
   { name: "Sesame Street (Let’s Play - Elmo & Cookie Monster)", description: "", pic: "images/sesameSt-letsPlay.jpg" },
   { name: "Sesame Street (Racer - Elmo & Cookie Monster)", description: "", pic: "images/sesameSt-racer.jpg" },
