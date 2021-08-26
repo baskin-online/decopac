@@ -9,12 +9,25 @@ function buildHeader() {
     </p> \
     <hr> \
     <div class="ui fluid two item secondary pointing menu"> \
-        <a class="biggerfont active item" href="https://baskin-online.github.io/decopac/">List</a> \
+        <a class="biggerfont activeList item" href="https://baskin-online.github.io/decopac/list">List</a> \
         <a class="biggerfont activeGrid item" href="https://baskin-online.github.io/decopac/grid">Catalog</a> \
     </div>';
-    if (href.includes('grid')) {
-        element.innerHTML = element.innerHTML.replace("active", "");
+    // <a class="biggerfont activeBrOnline item" href="https://baskin-online.github.io/decopac/bronline">BR Online</a> \
+    if (href.includes('list')) {
+        currentDataSet = decopacData;
+        element.innerHTML = element.innerHTML.replace("activeList", "active");
+        element.innerHTML = element.innerHTML.replace("activeGrid", "");
+        element.innerHTML = element.innerHTML.replace("activeBrOnline", "");
+    } else if (href.includes('grid')) {
+        currentDataSet = decopacData;
+        element.innerHTML = element.innerHTML.replace("activeList", "");
         element.innerHTML = element.innerHTML.replace("activeGrid", "active");
+        element.innerHTML = element.innerHTML.replace("activeBrOnline", "");
+    } else { // if (href.includes('bronline')
+        currentDataSet = brOnlineData;
+        element.innerHTML = element.innerHTML.replace("activeList", "");
+        element.innerHTML = element.innerHTML.replace("activeGrid", "");
+        element.innerHTML = element.innerHTML.replace("activeBrOnline", "active");
     }
     header.appendChild(element);
 }

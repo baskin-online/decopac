@@ -16,27 +16,22 @@ function buildSearchBar() {
 function filterData(e) {
     const input = e.target.value;
     const hiddenDiv = document.getElementById('removeIfFilter');
+    let filteredData = [];
+    // removes old list
+    const tempDiv = document.getElementById('temp');
+    tempDiv ? tempDiv.remove() : null;
     if (input.length == 0) {
         hiddenDiv.hidden = false;
     } else {
         hiddenDiv.hidden = true;
-        let filteredData = [];
-        for (let item of decoData) {
-            if (item['name'].toLowerCase().includes(input.toLowerCase()) ||
-            item['description'].toLowerCase().includes(input.toLowerCase())) {
-                filteredData.push(item);
+        for (let dataset of currentDataSet) {
+            for (let item of dataset) {
+                if (item['name'].toLowerCase().includes(input.toLowerCase()) ||
+                item['description'].toLowerCase().includes(input.toLowerCase())) {
+                    filteredData.push(item);
+                }
             }
         }
-        for (let item of decoSports) {
-            if (item['name'].toLowerCase().includes(input.toLowerCase()) |
-            item['description'].toLowerCase().includes(input.toLowerCase())) {
-                filteredData.push(item);
-            }
-        }
-        // removes old list
-        const tempDiv = document.getElementById('temp');
-        tempDiv ? tempDiv.remove() : null;
-
         const filteredListDiv = document.getElementById('filteredList');
         let element = document.createElement('div');
         element.setAttribute('id', 'temp');

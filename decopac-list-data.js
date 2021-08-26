@@ -120,3 +120,5 @@ const decoSports = [
   { name: "Soccer (Field)", description: "Socker Kick Off - Boys", pic: "images/soccer-field.jpg" },
   { name: "Soccer (Magnet)", description: "", pic: "images/soccer-magnet.jpg" },
 ];
+
+const decopacData = [decoData, decoSports];

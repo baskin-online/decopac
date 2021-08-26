@@ -7,7 +7,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
-    <script type="text/javascript" src="decopac-list-data.js"></script>
+    <script type="text/javascript" src="br-online-data.js"></script>
     <script type="text/javascript" src="globalVars.js"></script>
     <script type="text/javascript" src="header.js"></script>
     <script type="text/javascript" src="footer.js"></script>
@@ -20,7 +20,7 @@
         <br>
         <div class="ui two column stackable middle aligned grid">
             <div class="column">
-                <h1>Decoset List</h1>
+                <h1>BR Online Cakes</h1>
             </div>
             <div class="right floated right aligned column">
                 <div id="searchBar"></div>
@@ -30,12 +30,20 @@
         <div id="filteredList"></div>
 
         <div id="removeIfFilter">
+            <h1>Classics</h1>
             <div id="list1"></div>
             <br>
-            <h1>Sports</h1>
-            <br>
+            <h1>Creatures</h1>
             <div id="list2"></div>
+            <br>
+            <h1>Special Ocassions</h1>
+            <div id="list3"></div>
+            <br>
+            <h1>Pies</h1>
+            <div id="list4"></div>
+            <br>
         </div>
+
         <br>
 
         <div id="footer"></div>
@@ -67,8 +75,8 @@ function buildHTML(data, id) {
 buildHeader();
 buildFooter();
 buildSearchBar();
-for (let i = 0; i < decopacData.length; i++) {
-    buildHTML(decopacData[i], `list${i+1}`)
+for (let i = 0; i < brOnlineData.length; i++) {
+    buildHTML(brOnlineData[i], `list${i+1}`)
 }
 
 </script>
