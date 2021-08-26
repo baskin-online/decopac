@@ -7,6 +7,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
     <script type="text/javascript" src="decopac-list-data.js"></script>
+    <script type="text/javascript" src="globalVars.js"></script>
     <script type="text/javascript" src="header.js"></script>
     <script type="text/javascript" src="footer.js"></script>
     <script type="text/javascript" src="searchBar.js"></script>
@@ -36,21 +37,8 @@
 </html>
 
 <script type="text/javascript">
-
-function buildHTML(data, id) {
-    let list = document.getElementById(id);
-    let element = document.createElement('ul');
-    for (let i = 0; i < data.length; i++) {
-        element.innerHTML += '<li> <a href="'
-        + data[i].pic + '">' + data[i].name + '</a> </li>';
-    }
-    list.appendChild(element);
-}
-
 buildHeader();
 buildFooter();
 buildSearchBar();
-buildHTML(decoData, 'list1');
-buildHTML(decoSports, 'list2');
-
+buildHTMLstarter();
 </script>

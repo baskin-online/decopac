@@ -35,11 +35,11 @@ const classicsData = [
     { name: "Baseball Cake", description: "", pic: "images/br-online-cakes/baseball-cake.png" },
     { name: "Baby Shower Blue Cake", description: "", pic: "images/br-online-cakes/baby-shower-blue.png" },
     { name: "Baby Shower Pink Cake", description: "", pic: "images/br-online-cakes/baby-shower-pink.png" },
-    { name: "Clown Cone Party Cake", description: "", pic: "images/br-online-cakes/clown-cone-party-cake.png" },
-    { name: "Ice Cream Float Cake", description: "", pic: "images/br-online-cakes/ice-cream-float-cake.png" },
-    { name: "Fudge Nut Round Cake", description: "", pic: "images/br-online-cakes/fudge-nut-round-cake.png" },
-    { name: "Caramel Delight Ice Cream Cookie Torte", description: "", pic: "images/br-online-cakes/caramel-delight-ice-cream-cookie-torte.png" },
-    { name: "Caramelectric Cake", description: "", pic: "images/br-online-cakes/caramelectric.png" },
+    // { name: "Clown Cone Party Cake", description: "", pic: "images/br-online-cakes/clown-cone-party-cake.png" },
+    // { name: "Ice Cream Float Cake", description: "", pic: "images/br-online-cakes/ice-cream-float-cake.png" },
+    // { name: "Fudge Nut Round Cake", description: "", pic: "images/br-online-cakes/fudge-nut-round-cake.png" },
+    // { name: "Caramel Delight Ice Cream Cookie Torte", description: "", pic: "images/br-online-cakes/caramel-delight-ice-cream-cookie-torte.png" },
+    // { name: "Caramelectric Cake", description: "", pic: "images/br-online-cakes/caramelectric.png" },
 ]
 
 const creaturesData = [
@@ -112,8 +112,8 @@ const specialOcassionsData = [
     { name: "Piñata Ghost Cake", description: "", pic: "images/br-online-cakes/pinata-ghost-cake.png"},
     { name: "Pumpkin Patch Cake", description: "", pic: "images/br-online-cakes/pumpkin-patch-cake.png"},
     { name: "Piñata Pumpkin Patch Cake", description: "", pic: "images/br-online-cakes/pinata-pumpkin-patch-cake.png"},
-    { name: "Spider Web Cookie Cake", description: "", pic: "images/br-online-cakes/spider-web-cookie-cake.png"},
-    { name: "Haunted House Cake", description: "", pic: "images/br-online-cakes/haunted-house-cake.png"},
+    // { name: "Spider Web Cookie Cake", description: "", pic: "images/br-online-cakes/spider-web-cookie-cake.png"},
+    // { name: "Haunted House Cake", description: "", pic: "images/br-online-cakes/haunted-house-cake.png"},
     // Thanksgiving
     { name: "Turkey Cake", description: "", pic: "images/br-online-cakes/turkey-cake.png"},
     { name: "Harvest Swirl Cake", description: "H-134", pic: "images/br-online-cakes/harvest-swirl-cake.png"},
@@ -124,8 +124,8 @@ const specialOcassionsData = [
     { name: "Rosette Christmas Tree Cake", description: "", pic: "images/br-online-cakes/rosette-christmas-tree.png"},
     { name: "Winter Forest Cake", description: "", pic: "images/br-online-cakes/winter-forest.png"},
     { name: "Winter Wonderland Cake", description: "", pic: "images/br-online-cakes/winter-wonderland.png"},
-    { name: "Candy Lane Cottage Cake", description: "", pic: "images/br-online-cakes/candy-lane-cottage-cake.png"},
-    { name: "Chanukah Menorah Cake", description: "", pic: "images/br-online-cakes/chanukah-menorah-cake.png"},
+    // { name: "Candy Lane Cottage Cake", description: "", pic: "images/br-online-cakes/candy-lane-cottage-cake.png"},
+    // { name: "Chanukah Menorah Cake", description: "", pic: "images/br-online-cakes/chanukah-menorah-cake.png"},
 ];
 
 const piesData = [

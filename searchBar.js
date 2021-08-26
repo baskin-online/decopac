@@ -36,7 +36,12 @@ function filterData(e) {
         let element = document.createElement('div');
         element.setAttribute('id', 'temp');
         filteredListDiv.appendChild(element);
-        buildHTML(filteredData, 'temp');
+        let href = window.location.href;
+        if (href.includes('list')) {
+            buildHTMLforList(filteredData, 'temp');
+        } else {
+            buildHTMLforGrid(filteredData, 'temp');
+        }
     }
     return filteredData;
 }

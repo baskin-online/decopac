@@ -52,31 +52,8 @@
 </html>
 
 <script type="text/javascript">
-function buildHTML(data, id) {
-    let list = document.getElementById(id);
-    let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable centered">';
-    for (let i = 0; i < data.length; i++) {
-        temp +=
-        '<div class="ui raised card"> \
-            <a class="image" href="'+ data[i].pic + '"> \
-                <img class="decopacImage" src="' + data[i].pic +'"> \
-            </a> \
-            <div class="content" style="padding: 0.5rem;"> \
-                <a class="ui header" href="' + data[i].pic+ '">' + data[i].name + '</a> \
-            </div> \
-        </div>';
-    }
-    temp += '</div>';
-    element.innerHTML = temp;
-    list.appendChild(element);
-}
-
 buildHeader();
 buildFooter();
 buildSearchBar();
-for (let i = 0; i < brOnlineData.length; i++) {
-    buildHTML(brOnlineData[i], `list${i+1}`)
-}
-
+buildHTMLstarter();
 </script>
