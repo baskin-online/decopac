@@ -26,8 +26,11 @@ function filterData(e) {
         hiddenDiv.hidden = true;
         for (let dataset of currentDataSet) {
             for (let item of dataset) {
-                if (item['name'].toLowerCase().includes(input.toLowerCase()) ||
-                item['description'].toLowerCase().includes(input.toLowerCase())) {
+                if (
+                    item['name'].toLowerCase().includes(input.toLowerCase()) ||
+                    item['description'].toLowerCase().includes(input.toLowerCase()) ||
+                    item['code'].toLowerCase().includes(input.toLowerCase())
+                    ) {
                     filteredData.push(item);
                 }
             }
