@@ -47,11 +47,16 @@ function buildHTMLforGrid(data, id) {
 
 function buildHTMLstarter() {
     let href = window.location.href;
-    for (let i = 0; i < currentDataSet.length; i++) {
-        if (href.includes('list')) {
-            buildHTMLforList(currentDataSet[i], `list${i+1}`)
-        } else {
-            buildHTMLforGrid(currentDataSet[i], `list${i+1}`)
+    if (href.includes('list')) {
+        for (let i = 0; i < decopacData.length; i++) {
+            buildHTMLforList(decopacData[i], `list${i+1}`);
+        }
+        for(let i = 0; i < brOnlineData.length; i++) {
+            buildHTMLforList(brOnlineData[i], `list${i+1+decopacData.length}`);
+        }
+    } else {
+        for (let i = 0; i < currentDataSet.length; i++) {
+            buildHTMLforGrid(currentDataSet[i], `list${i+1}`);
         }
     }
 }

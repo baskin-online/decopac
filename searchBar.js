@@ -15,23 +15,46 @@ function buildSearchBar() {
 
 function filterData(e) {
     const input = e.target.value;
-    const hiddenDiv = document.getElementById('removeIfFilter');
+    const hiddenDiv = document.getElementsByName('removeIfFilter');
+    console.log(hiddenDiv);
     let filteredData = [];
     // removes old list
     const tempDiv = document.getElementById('temp');
     tempDiv ? tempDiv.remove() : null;
     if (input.length == 0) {
-        hiddenDiv.hidden = false;
+        for (let div of hiddenDiv) {
+            div.hidden = false;
+        }
     } else {
-        hiddenDiv.hidden = true;
-        for (let dataset of currentDataSet) {
-            for (let item of dataset) {
-                if (
-                    item['name'].toLowerCase().includes(input.toLowerCase()) ||
-                    item['description'].toLowerCase().includes(input.toLowerCase()) ||
-                    item['code'].toLowerCase().includes(input.toLowerCase())
+        let href = window.location.href;
+        for (let div of hiddenDiv) {
+            div.hidden = true;
+        }
+        if (href.includes('list')) {
+            const sets = [decopacData, brOnlineData];
+            for (let currentDataSet of sets) {
+                for (let dataset of currentDataSet) {
+                    for (let item of dataset) {
+                        if (
+                            item['name'].toLowerCase().includes(input.toLowerCase()) ||
+                            item['description'].toLowerCase().includes(input.toLowerCase()) ||
+                            item['code'].toLowerCase().includes(input.toLowerCase())
+                        ) {
+                            filteredData.push(item);
+                        }
+                    }
+                }
+            }
+        } else {
+            for (let dataset of currentDataSet) {
+                for (let item of dataset) {
+                    if (
+                        item['name'].toLowerCase().includes(input.toLowerCase()) ||
+                        item['description'].toLowerCase().includes(input.toLowerCase()) ||
+                        item['code'].toLowerCase().includes(input.toLowerCase())
                     ) {
-                    filteredData.push(item);
+                        filteredData.push(item);
+                    }
                 }
             }
         }
@@ -39,7 +62,6 @@ function filterData(e) {
         let element = document.createElement('div');
         element.setAttribute('id', 'temp');
         filteredListDiv.appendChild(element);
-        let href = window.location.href;
         if (href.includes('list')) {
             buildHTMLforList(filteredData, 'temp');
         } else {

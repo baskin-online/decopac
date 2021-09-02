@@ -56,15 +56,15 @@ const creaturesData = [
     { name: "Ladybug Cake", code: "SA-13", description: "", pic: "images/br-online-cakes/ladybug-cake.png"},
     { name: "Hopscotch The Bunny Cake", code: "H-139", description: "", pic: "images/br-online-cakes/hopscotch-the-bunny-cake.png"},
     { name: "Bunny Face Cake", code: "H-113", description: "", pic: "images/br-online-cakes/bunny-face-cake.png"},
-    { name: "Fluffy Bunny Cake", code: "H-95", description: "", pic: "images/br-online-cakes/fluffy-bunny-cake.png"},
+    // { name: "Fluffy Bunny Cake", code: "H-95", description: "", pic: "images/br-online-cakes/fluffy-bunny-cake.png"},
     { name: "Bunny Roll Cake", code: "H-103", description: "", pic: "images/br-online-cakes/bunny-roll-cake.png"},
-    { name: "Monkey Cake", code: "SA-17", description: "", pic: "images/br-online-cakes/monkey-cake.png"},
+    // { name: "Monkey Cake", code: "SA-17", description: "", pic: "images/br-online-cakes/monkey-cake.png"},
     { name: "Teddy Bear Cake", code: "H-85", description: "", pic: "images/br-online-cakes/teddy-bear-cake.png"},
     { name: "Polar Bear Cake", code: "H-83", description: "", pic: "images/br-online-cakes/polar-bear-cake.png"},
     { name: "Reindeer Cake", code: "H-121", description: "", pic: "images/br-online-cakes/reindeer-cake.png"},
     { name: "Snowman Cake", code: "H-71", description: "", pic: "images/br-online-cakes/snowman-cake.png"},
     { name: "Elf Cake", code: "SA-65", description: "", pic: "images/br-online-cakes/elf-cake.png"},
-    { name: "Santa Cake", code: "SA-64", description: "", pic: "images/br-online-cakes/santa-cake.png"},
+    // { name: "Santa Cake", code: "SA-64", description: "", pic: "images/br-online-cakes/santa-cake.png"},
     { name: "Unicorn Tiered Cake", code: "T-4", description: "", pic: "images/br-online-cakes/unicorn-tiered.png"},
 ];
 
@@ -109,9 +109,9 @@ const specialOcassionsData = [
     // Halloween
     { name: "Halloween OREO Cookie Cake", code: "H-82", description: "", pic: "images/br-online-cakes/halloween-oreo-cookie-cake.png"},
     { name: "Ghost Cake", code: "H-119", description: "", pic: "images/br-online-cakes/ghost-cake.png"},
-    { name: "Piñata Ghost Cake", code: "H-120", description: "", pic: "images/br-online-cakes/pinata-ghost-cake.png"},
+    // { name: "Piñata Ghost Cake", code: "H-120", description: "", pic: "images/br-online-cakes/pinata-ghost-cake.png"},
     { name: "Pumpkin Patch Cake", code: "H-70", description: "", pic: "images/br-online-cakes/pumpkin-patch-cake.png"},
-    { name: "Piñata Pumpkin Patch Cake", code: "H-70", description: "", pic: "images/br-online-cakes/pinata-pumpkin-patch-cake.png"},
+    // { name: "Piñata Pumpkin Patch Cake", code: "H-70", description: "", pic: "images/br-online-cakes/pinata-pumpkin-patch-cake.png"},
     // { name: "Spider Web Cookie Cake", code: "CK-7", description: "", pic: "images/br-online-cakes/spider-web-cookie-cake.png"},
     // { name: "Haunted House Cake", code: "H-85", description: "", pic: "images/br-online-cakes/haunted-house-cake.png"},
     // Thanksgiving

@@ -7,6 +7,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
     <script type="text/javascript" src="decopac-list-data.js"></script>
+    <script type="text/javascript" src="br-online-data.js"></script>
     <script type="text/javascript" src="globalVars.js"></script>
     <script type="text/javascript" src="header.js"></script>
     <script type="text/javascript" src="footer.js"></script>
@@ -17,19 +18,36 @@
     <div>
         <div id="header"></div>
         <br>
-        <div class="ui two column stackable middle aligned grid">
-            <div class="column">
-                <h1>Decoset List</h1>
+        <div id="decosetList">
+            <div class="ui two column stackable middle aligned grid">
+                <div class="column">
+                    <h1>All Cakes</h1>
+                </div>
+                <div class="right floated right aligned column">
+                    <div id="searchBar"></div>
+                </div>
             </div>
-            <div class="right floated right aligned column">
-                <div id="searchBar"></div>
+            <div id="filteredList"></div>
+            <div name="removeIfFilter">
+                <h1>Decoset Cakes</h1>
+                <div id="list1"></div>
+                <h1>Sports</h1>
+                <div id="list2"></div>
             </div>
         </div>
-        <div id="filteredList"></div>
-        <div id="removeIfFilter">
-            <div id="list1"></div>
-            <h1>Sports</h1>
-            <div id="list2"></div>
+        <div id="brOnlineList">
+            <div name="removeIfFilter">
+            <h1>BR Online Cakes</h1>
+                <h1>Classics</h1>
+                <div id="list3"></div>
+                <h1>Creatures</h1>
+                <div id="list4"></div>
+                <h1>Special Ocassions</h1>
+                <div id="list5"></div>
+                <h1>Pies</h1>
+                <div id="list6"></div>
+                <br>
+            </div>
         </div>
         <div id="footer"></div>
     </div>
