@@ -48,6 +48,8 @@ const creaturesData = [
     { name: "Sea Turtle Cake", code: "SA-21", description: "", pic: "images/br-online-cakes/sea-turtle-cake.png"},
     { name: "Mystical Mermaid Cake", code: "B-30", description: "", pic: "images/br-online-cakes/mystical-mermaid-cake.png"},
     { name: "Unicorn Cake", code: "B-29", description: "", pic: "images/br-online-cakes/unicorn-cake.png"},
+    { name: "Valentine Unicorn Cake", code: "H-127", description: "", pic: "images/br-online-cakes/valentine-unicorn-cake.png"},
+    { name: "Zombie Unicorn Cake", code: "H-142", description: "", pic: "images/br-online-cakes/zombie-unicorn-cake2.png"},
     { name: "Fang-Tastic Monster Cake", code: "H-98", description: "", pic: "images/br-online-cakes/fang-tastic-monster-cake.png"},
     { name: "Silly Monster Cake Pink", code: "B-25", description: "", pic: "images/br-online-cakes/silly-monster-cake-pink.png"},
     { name: "Silly Monster Cake Blue", code: "B-26", description: "", pic: "images/br-online-cakes/silly-monster-cake-blue.png"},
@@ -79,7 +81,6 @@ const specialOcassionsData = [
     { name: "Yellow Conversation Heart KISS ME Cake", code: "H-66", description: "", pic: "images/br-online-cakes/yellow-conversation-heart-kiss-me-cake.png" },
     { name: "Be Mine Small Heart Cake", code: "H-93", description: "", pic: "images/br-online-cakes/be-mine-small-heart-cake.png" },
     { name: "Hershey's Kisses Cake", code: "H-109", description: "", pic: "images/br-online-cakes/hershey-kisses-cake.png"},
-    { name: "Valentine Unicorn Cake", code: "H-127", description: "", pic: "images/br-online-cakes/valentine-unicorn-cake.png"},
     // Mother's Day
     { name: "Floral Cone Bouquet Cake", code: "H-140", description: "", pic: "images/br-online-cakes/floral-cone-bouquet.png"},
     { name: "Amazing Mom Cake", code: "H-116", description: "", pic: "images/br-online-cakes/amazing-mom-cake.png"},
