@@ -64,6 +64,7 @@ const creaturesData = [
     { name: "Teddy Bear Cake", code: "H-85", description: "", pic: "images/br-online-cakes/teddy-bear-cake.png"},
     { name: "Polar Bear Cake", code: "H-83", description: "", pic: "images/br-online-cakes/polar-bear-cake.png"},
     { name: "Reindeer Cake", code: "H-121", description: "", pic: "images/br-online-cakes/reindeer-cake.png"},
+    { name: "Brrr the Snowman Cake", code: "H-143", description: "", pic: "images/br-online-cakes/brrr-snowman.png"},
     { name: "Snowman Cake", code: "H-71", description: "", pic: "images/br-online-cakes/snowman-cake.png"},
     { name: "Elf Cake", code: "SA-65", description: "", pic: "images/br-online-cakes/elf-cake.png"},
     // { name: "Santa Cake", code: "SA-64", description: "", pic: "images/br-online-cakes/santa-cake.png"},
