@@ -1,7 +1,6 @@
 const decoData = [
   { name: "Angry Birds 2", code: "", description: "Red Bird and Bad Piggy", pic: "images/angryBirds2.jpg" },
   { name: "Avengers", code: "", description: "", pic: "images/avengers.jpg" },
-  { name: "Avatar the Last Airbender", code: "", description: "Windrider", pic: "images/avatar-airbender.jpg" },
   { name: "B-A-B-Y Blocks", code: "", description: "B-A-B-Y Blocks", pic: "images/babyBlocks.jpg" },
   { name: "Baby Sharks", code: "", description: "", pic: "images/babySharks.jpg" },
   { name: "Barbie (Dream House)", code: "", description: "Dream House Adventures", pic: "images/barbie-dreamHouse.jpg" },
