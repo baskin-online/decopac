@@ -6,7 +6,7 @@ function buildHeader() {
     '<hr> \
     <p style="text-align: center;">All cake orders require a <span class="pink">24-hour notice</span> in advance. \
     </p> \
-    <p style="text-align: center;">Decoset toys are an additional <span class="pink">$10.99</span>. \
+    <p style="text-align: center;">Decoset toys are an additional <span class="pink">$15.00</span>. \
     </p> \
     <hr> \
     <div class="ui fluid three item secondary pointing menu"> \
