@@ -103,11 +103,11 @@ const specialOcassionsData = [
     // { name: "Speckled Egg Cake", code: "H-114", description: "", pic: "images/br-online-cakes/speckled-egg-cake.png"},
     // Graduation
     { name: "Diploma Roll Cake", code: "SO-48", description: "", pic: "images/br-online-cakes/diploma-roll-cake.png"},
-    { name: "Cap & Diploma Cake", code: "SO-37", description: "", pic: "images/br-online-cakes/cap-and-diploma-cake.png"},
-    { name: "School Spirit Cake", code: "SO-47", description: "", pic: "images/br-online-cakes/school-spirit-cake.png"},
-    { name: "School Spirit Tiered Cake", code: "T-8", description: "", pic: "images/br-online-cakes/school-spirit-tiered-cake.png"},
+    { name: "Cap & Diploma Cake", code: "SO-37", description: "", pic: "images/br-online-cakes/cap-and-diploma-cake-2022.png"},
+    { name: "School Spirit Cake", code: "SO-47", description: "", pic: "images/br-online-cakes/school-spirit-cake-2022.png"},
+    { name: "School Spirit Tiered Cake", code: "T-8", description: "", pic: "images/br-online-cakes/school-spirit-tiered-cake-2022.png"},
     { name: "Graduation Stripe PhotoCake", code: "SO-45", description: "", pic: "images/br-online-cakes/graduation-stripe-photocake.png"},
-    { name: "School Spirit Cookie Cake", code: "CK-9", description: "", pic: "images/br-online-cakes/school-spirit-cookie-cake.png"},
+    { name: "School Spirit Cookie Cake", code: "CK-9", description: "", pic: "images/br-online-cakes/school-spirit-cookie-cake-2022.png"},
     // Halloween
     { name: "Halloween OREO Cookie Cake", code: "H-82", description: "", pic: "images/br-online-cakes/halloween-oreo-cookie-cake.png"},
     { name: "Ghost Cake", code: "H-119", description: "", pic: "images/br-online-cakes/ghost-cake.png"},
