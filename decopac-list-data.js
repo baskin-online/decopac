@@ -35,7 +35,7 @@ const decoData = [
   { name: "Finding Dory (Fintastic Adventures)", code: "", description: "", pic: "images/findingDory.jpg" },
   { name: "Finding Nemo (Nemo & Squirt)", code: "", description: "", pic: "images/findingNemo.jpg" },
   { name: "Firetruck", code: "", description: "", pic: "images/firetruck.jpg" },
-  // { name: "Golf Cart", code: "", description: "", pic: "images/golfCart.jpg" },
+  { name: "Golf Cart", code: "", description: "", pic: "images/golfCart.jpg" },
   { name: "Graduation Cap", code: "SO-47", description: "School Spirit Cake", pic: "images/schoolSpiritCake.png" },
   { name: "Hello Kitty (Head)", code: "", description: "", pic: "images/helloKitty.jpg" },
   { name: "Hello Kitty (Stamper)", code: "", description: "", pic: "images/helloKitty-stamper.jpg" },
