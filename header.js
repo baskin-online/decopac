@@ -8,6 +8,8 @@ function buildHeader() {
     </p> \
     <p style="text-align: center;">Decoset toys are an additional <span class="pink">$15.00</span>. \
     </p> \
+    <p style="text-align: center;">Custom Photo Prints are an additional <span class="pink">$15.00</span>. \
+    </p> \
     <hr> \
     <div class="ui fluid three item secondary pointing menu"> \
         <a class="biggerfont activeList item" href="https://baskin-online.github.io/decopac/list">List</a> \
