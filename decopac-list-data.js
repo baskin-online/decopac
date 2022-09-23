@@ -83,7 +83,7 @@ const decoData = [
   { name: "Spongebob Krusty Krab ($15)", code: "", description: "", pic: "images/decopac/spongebob-KrustyKrab.jpg" },
   { name: "Spongebob Krabby Patty", code: "CC-118", description: "SpongeBob SquarePants Krabby Patty", pic: "images/decopac/spongebob-krabbyPatty-br.png" },
   { name: "Star Wars: Darth Vader", code: "", description: "Darth Vader", pic: "images/decopac/starWars-DarthVader.jpg" },
-  { name: "Star Wars: The Force Awakens", code: "", description: "The Force Awakens", pic: "images/decopac/starWars-ForceAwakens.jpg" },
+  //{ name: "Star Wars: The Force Awakens", code: "", description: "The Force Awakens", pic: "images/decopac/starWars-ForceAwakens.jpg" },
   { name: "Star Wars: Ghost", code: "", description: "", pic: "images/decopac/starWars-Ghost.jpg" },
   { name: "Star Wars: The Last Jedi - Ski Speeder", code: "", description: "", pic: "images/decopac/starWars-LastJedi.jpg" },
   { name: "Star Wars: The Mandalorian", code: "", description: "", pic: "images/decopac/mandalorian.jpg" },
