@@ -112,8 +112,9 @@ const specialOcassionsData = [
     { name: "School Spirit Cookie Cake", code: "CK-9", description: "", pic: "images/br-online-cakes/school-spirit-cookie-cake-2022.png"},
     // Halloween
     { name: "Halloween OREO Cookie Cake", code: "H-82", description: "", pic: "images/br-online-cakes/halloween-oreo-cookie-cake.png"},
+    { name: "Trixie the Ghost Cake", code: "H-155", description: "", pic: "images/br-online-cakes/trixie-ghost-cake.png"},
     { name: "Ghost Cake", code: "H-119", description: "", pic: "images/br-online-cakes/ghost-cake.png"},
-    // { name: "Piñata Ghost Cake", code: "H-120", description: "", pic: "images/br-online-cakes/pinata-ghost-cake.png"},
+    { name: "Piñata Ghost Cake", code: "H-120", description: "", pic: "images/br-online-cakes/pinata-ghost-cake.png"},
     { name: "Pumpkin Patch Cake", code: "H-70", description: "", pic: "images/br-online-cakes/pumpkin-patch-cake.png"},
     // { name: "Piñata Pumpkin Patch Cake", code: "H-70", description: "", pic: "images/br-online-cakes/pinata-pumpkin-patch-cake.png"},
     // { name: "Spider Web Cookie Cake", code: "CK-7", description: "", pic: "images/br-online-cakes/spider-web-cookie-cake.png"},
