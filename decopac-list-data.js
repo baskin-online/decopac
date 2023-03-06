@@ -98,8 +98,6 @@ const decoData = [
   { name: "Toy Story 4", code: "CC-122", description: "Disney Pixar Toy Story 4 Team Toy", pic: "images/decopac/toyStory4-br.png" },
   { name: "Turbo", code: "", description: "", pic: "images/decopac/turbo.jpg" },
   { name: "Trolls", code: "", description: "Poppy Show Me a Smile", pic: "images/decopac/trolls.jpg" },
-  { name: "Unicorn (Sheet Cake)", code: "", description: "", pic: "images/decopac/unicorn.jpg" },
-  { name: "Unicorn (Two-Tiered Cake)", code: "", description: "Unicorn Creations Stacked", pic: "images/decopac/unicorn-round.jpg" },
   { name: "Winnie the Pooh", code: "", description: "", pic: "images/decopac/pooh.jpg" },
 ];
 
