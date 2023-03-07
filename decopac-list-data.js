@@ -91,7 +91,6 @@ const decoData = [
   { name: "Super Mario Kart", code: "CC-120", description: "Super Mario Mario Kart", pic: "images/decopac/superMario-br.png" },
   { name: "Teenage Mutant Ninja Turtles (Rise Up)", code: "", description: "Rise Up", pic: "images/decopac/teenageMutantNinjaTurtles2.jpg" },
   { name: "Teen Beach Movie", code: "", description: "", pic: "images/decopac/teenBeachMovie.jpg" },
-  { name: "Thomas the Train (Coal Car)", code: "", description: "Coal Car", pic: "images/decopac/thomasTheTrain.jpg" },
   { name: "Thomas the Train (#1 Engine)", code: "", description: "", pic: "images/decopac/thomasTheTrain2.jpg" },
   { name: "Tinkerbell (Flower)", code: "", description: "Tinkerbell in Flower", pic: "images/decopac/tinkerBell-Flower.jpg" },
   { name: "Tom and Jerry", code: "", description: "", pic: "images/decopac/tomAndJerry.jpeg" },
