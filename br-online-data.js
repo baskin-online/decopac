@@ -30,7 +30,6 @@ const classicsData = [
     { name: "Celebration Tiered Cake", code: "T-2", description: "", pic: "images/br-online-cakes/celebration-tiered.png" },
     { name: "Celebration Cookie Cake", code: "CK-1", description: "", pic: "images/br-online-cakes/celebration-cookie-cake.png" },
     { name: "4th of July Celebration Cake", code: "H-76", description: "", pic: "images/br-online-cakes/4th-of-july-celebration-cake.png" },
-    { name: "St. Patrick's Day Cake", code: "H-73", description: "Rainbow", pic: "images/br-online-cakes/st-patricks-day-cake.png" },
     { name: "Tall Stack Cake", code: "H-148", description: "Pancake", pic: "images/br-online-cakes/tall-stack-cake.png" },
     { name: "Football Cake", code: "SA-15", description: "", pic: "images/br-online-cakes/football-cake.png" },
     { name: "Baseball Cake", code: "SA-16", description: "", pic: "images/br-online-cakes/baseball-cake.png" },
@@ -44,13 +43,14 @@ const classicsData = [
 ]
 
 const creaturesData = [
-    { name: "Shark Cake", code: "SA-22", description: "", pic: "images/br-online-cakes/shark-cake.png" },
-    { name: "Dolphin Cake", code: "SA-20", description: "", pic: "images/br-online-cakes/dolphin-cake.png"},
-    { name: "Sea Turtle Cake", code: "SA-21", description: "", pic: "images/br-online-cakes/sea-turtle-cake.png"},
+    // { name: "Shark Cake", code: "SA-22", description: "", pic: "images/br-online-cakes/shark-cake.png" },
+    // { name: "Dolphin Cake", code: "SA-20", description: "", pic: "images/br-online-cakes/dolphin-cake.png"},
+    // { name: "Sea Turtle Cake", code: "SA-21", description: "", pic: "images/br-online-cakes/sea-turtle-cake.png"},
     { name: "Mystical Mermaid Cake", code: "B-30", description: "", pic: "images/br-online-cakes/mystical-mermaid-cake.png"},
     { name: "Unicorn Cake", code: "B-29", description: "", pic: "images/br-online-cakes/unicorn-cake.png"},
     { name: "Valentine Unicorn Cake", code: "H-127", description: "", pic: "images/br-online-cakes/valentine-unicorn-cake.png"},
     { name: "Zombie Unicorn Cake", code: "H-142", description: "", pic: "images/br-online-cakes/zombie-unicorn-cake2.png"},
+    // { name: "Dinosaur Dome Cake", code: "B-32", description: "", pic: "images/br-online-cakes/dino-dome-cake.png"},
     { name: "Fang-Tastic Monster Cake", code: "H-98", description: "", pic: "images/br-online-cakes/fang-tastic-monster-cake.png"},
     { name: "Silly Monster Cake Pink", code: "B-25", description: "", pic: "images/br-online-cakes/silly-monster-cake-pink.png"},
     { name: "Silly Monster Cake Blue", code: "B-26", description: "", pic: "images/br-online-cakes/silly-monster-cake-blue.png"},
@@ -74,6 +74,7 @@ const creaturesData = [
 
 const specialOcassionsData = [
     // Valentines
+    { name: "Crazy for You Cake", code: "H-160", description: "", pic: "images/br-online-cakes/crazy-for-you-cake.png"},
     { name: "Box of Chocolates Cake", code: "H-138", description: "", pic: "images/br-online-cakes/box-of-chocolates.png"},
     { name: "Heart Cones Cake", code: "H-126", description: "", pic: "images/br-online-cakes/heart-cones-cake.png"},
     { name: "Love Banner Cake", code: "H-110", description: "", pic: "images/br-online-cakes/love-banner-cake.png" },
@@ -100,6 +101,8 @@ const specialOcassionsData = [
     { name: "Bow Tie & Shirt Cookie Cake", code: "CK-6", description: "", pic: "images/br-online-cakes/bow-tie-shirt-cookie-cake.png"},
     { name: "Bow Tie & Suspenders Cookie Cake", code: "CK-4", description: "", pic: "images/br-online-cakes/bow-tie-suspenders-cookie-cake.png"},
     { name: "Banner Cookie Cake", code: "CK-3", description: "", pic: "images/br-online-cakes/banner-cookie-cake.png"},
+    // St. Patrick's Day
+    { name: "St. Patrick's Day Cake", code: "H-73", description: "Rainbow", pic: "images/br-online-cakes/st-patricks-day-cake.png" },
     // Easter
     // { name: "Bunny Stripe Cake", code: "H-102", description: "", pic: "images/br-online-cakes/bunny-stripe-cake.png"},
     // { name: "Speckled Egg Cake", code: "H-114", description: "", pic: "images/br-online-cakes/speckled-egg-cake.png"},
