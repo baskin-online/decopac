@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Baskin Robbins Cake Catalog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+    <script type="text/javascript" src="decopac-list-data.js"></script>
+    <script type="text/javascript" src="globalVars.js"></script>
+    <script type="text/javascript" src="header.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
+    <script type="text/javascript" src="searchBar.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div>
+    <div id="header"></div>
+    <div style="padding: 2rem;">
+      <h1 style="text-align: center;">Order Your Cake Today !</h1>
+      <div class="ui two column stackable middle aligned grid">
+        <div class="ui row">
+        <div class="column">
+          <h2 style="text-align: center;">Online Order
+            <img class="ui tiny spaced image" src="images/custom-24.png" style="padding-left: 5px;">
+          </h2>
+        </div>
+        <div class="column">
+          <h2 style="text-align: center;">Phone Order
+            <img class="ui tiny spaced image" src="images/custom-24.png" style="padding-left: 5px;">
+          </h2>
+        </div>
+      </div>
+      <div class="ui row">
+        <div class="column" style="height: 100%; vertical-align: text-top; padding: 0px 5rem;">
+          <ul style="margin: 0px;">
+            <li class="myListItem"><a class="myLink" href="https://order.baskinrobbins.com/categories?storeId=BR-362036">Kapolei</a></li>
+            <li class="myListItem"><a class="myLink" href="https://order.baskinrobbins.com/categories?storeId=BR-362037">King</a></li>
+            <li class="myListItem"><a class="myLink" href="https://order.baskinrobbins.com/categories?storeId=BR-342350">Mililani</a></li>
+            <li class="myListItem"><a class="myLink" href="https://order.baskinrobbins.com/categories?storeId=BR-343836">Moanalua</a></li>
+            <li class="myListItem"><a class="myLink" href="https://order.baskinrobbins.com/categories?storeId=BR-348162">Kailua</a></li>
+          </ul>
+        </div>
+        <div class="column" style="height: 100%; vertical-align: text-top; padding: 0px 5rem;">
+          <details class="myindent1">
+              <summary>Kapolei</summary>
+              <div class="myindent2">
+                  <strong>Address</strong>: 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br>
+                  <strong>Phone</strong>: (808) 674-0131<br>
+                  <strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+                  <!--<strong>Store Number</strong>: 363036<br>-->
+              </div>
+          </details>
+          <details class="myindent1">
+              <summary>King St.</summary>
+              <div class="myindent2">
+                  <strong>Address</strong>: 1618 S King St, Honolulu, HI 96826<br>
+                  <strong>Phone</strong>: (808) 947-7300<br/>
+                  <strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+                  <!--<strong>Store Number</strong>: 362037<br>-->
+              </div>
+          </details>
+          <details class="myindent1">
+              <summary>Mililani</summary>
+              <div class="myindent2">
+                  <strong>Address</strong>: 95-1249 Meheula Pkwy, Mililani, HI 96789<br>
+                  <strong>Phone</strong>: (808) 623-9999<br>
+                  <strong>Hours</strong>: Everyday: 10 am - 10 pm<br>
+                  <!--<strong>Store Number</strong>: 342350<br>-->
+              </div>
+          </details>
+          <details class="myindent1">
+              <summary>Moanalua</summary>
+              <div class="myindent2">
+                  <strong>Address</strong>: 930 Valkenburgh St, Honolulu, HI 96818<br>
+                  <strong>Phone</strong>: (808) 421-0888<br>
+                  <strong>Hours</strong>: Everyday 10:30 am - 10 pm<br>
+              </div>
+          </details>
+          <details class="myindent1">
+              <summary>Kailua</summary>
+              <div class="myindent2">
+                  <strong>Address</strong>: 108 Hekili St, Kailua, HI 96734<br>
+                  <strong>Phone</strong>: (808) 261-2770<br>
+                  <strong>Hours</strong>: Everyday 10 am - 10 pm<br>
+                  <!--<strong>Store Number</strong>: 348162<br>-->
+              </div>
+          </details>
+          <br>
+        </div>
+      </div>
+      </div>
+  </div>
+  <div id="footer"></div>
+</body>
+</html>
+
+<script type="text/javascript">
+buildHeader();
+buildFooter();
+</script>

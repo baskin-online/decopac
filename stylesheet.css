@@ -11,6 +11,7 @@
 	--brPink1: #e21380;
 	--brPink2: #F2529D;
   --brOffWhite: #eee1d8;
+	--brBlue: #69D2F1;
 }
 
 body{
@@ -24,10 +25,16 @@ body{
 	background-color: #fcfcfc;
 }
 
+#footer {
+	background-color: var(--brBrown);
+	color: var(--brOffWhite) !important;
+	padding: 2rem 5rem;
+}
+
 #menuBar {
 	/* background-color: #fff; */
 	color: #f0f9ff;
-	padding: 0px 1rem;
+	/* padding: 0px 1rem; */
 	max-height: 4rem;
 	border-radius: 0px;
 	margin: 0px;
@@ -35,10 +42,10 @@ body{
 
 .brownBar {
 	background-color: var(--brBrown);
+	color: var(--brOffWhite);
 	text-align: center;
 	font-family: 'Poppins';
 	line-height: 3rem;
-	color: #eee1d8; /* off-white */
 	text-shadow: none;
 	padding: 0px;
 	margin: 0px;
@@ -60,11 +67,38 @@ body{
 	border-width: thick;
 }
 
+.footerLink {
+	color: var(--brBlue);
+	text-decoration: underline;
+	text-shadow: none;
+	font-size: 1.3rem;
+}
+
+.footerLink:hover {
+	color: var(--brPink1);
+	text-decoration: underline;
+}
+
+.myLink {
+	color: var(--brPink1);
+	text-decoration: underline;
+}
+
+.myLink:hover {
+	color: var(--brBlue) !important;
+	text-decoration: underline;
+}
+
+.myListItem {
+	list-style-type: disc;
+	color: var(--brPink1);
+}
+
 .activeLogo.item:hover {
 	background-color: rgba(232,232,232, 0.5) !important;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Poppins';
 }
 
@@ -78,8 +112,8 @@ a.item.active {
 }
 
 a.item:hover {
-	color: var(--brPink1) !important;
-	background-color: rgba(242,82,157,0.08) !important;
+	color: var(--brBlue) !important;
+	background-color: rgba(105,210,241,0.08) !important;
 }
 
 a.ui.header {
@@ -142,15 +176,19 @@ hr {
 		/* font-size: 2.75rem; */
 	}
 
-	a, p, #footer {
+	details {
+		font-size: 1.8rem;
+	}
+
+	a, p, summary {
 		font-size: 2.75rem;
 	}
 
-	a.item {
+	a.item, h2 {
 		font-size: 3.0rem;
 	}
 
 	h1 {
-		font-size: 4.0rem;
+		font-size: 3.5rem;
 	}
 }

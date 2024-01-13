@@ -8,16 +8,11 @@ function buildHeader() {
         <div class="right menu"> \
           <a class="biggerfont activeBrOnline item" href="https://baskin-online.github.io/decopac/bronline">BR Online Cakes</a> \
           <a class="biggerfont activeGrid item" href="https://baskin-online.github.io/decopac/grid">Decoset Cakes</a> \
-          <a class="biggerfont activeGrid item" href="https://baskin-online.github.io/decopac/locations">Order Now</a> \
+          <a class="biggerfont activeLocations item" href="https://baskin-online.github.io/decopac/locations">Order Now</a> \
         </div> \
     </div> \
     <div class="brownBar"> \
         All cake orders require a <span class="pink">24-hour notice</span> in advance. \
-    </div> \
-    <br> \
-    <div class="textbox"> \
-      Couldn\'t find the perfect design? Make it a Photocake for just $15! \
-      Celebrate your loved ones\' special day by showcasing their most treasured memories.\
     </div> \
     ';
     // if (href.includes('list')) {
@@ -31,11 +26,15 @@ function buildHeader() {
         // element.innerHTML = element.innerHTML.replace("activeList", "");
         element.innerHTML = element.innerHTML.replace("activeGrid", "active");
         element.innerHTML = element.innerHTML.replace("activeBrOnline", "");
-    } else { // if (href.includes('bronline')
+    } else if (href.includes('bronline')) {
         currentDataSet = brOnlineData;
         // element.innerHTML = element.innerHTML.replace("activeList", "");
         element.innerHTML = element.innerHTML.replace("activeGrid", "");
         element.innerHTML = element.innerHTML.replace("activeBrOnline", "active");
+    } else {
+        element.innerHTML = element.innerHTML.replace("activeGrid", "");
+        element.innerHTML = element.innerHTML.replace("activeBrOnline", "");
+        element.innerHTML = element.innerHTML.replace("activeLocations", "active");
     }
     header.appendChild(element);
 }
