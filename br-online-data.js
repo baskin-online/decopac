@@ -20,7 +20,7 @@ const classicsData = [
     { name: "Too Cute Cupcake Cake", code: "B-21", description: "", pic: "images/br-online-cakes/too-cute-cupcake.png"},
     { name: "Fudge Roll Cake", code: "SO-52", description: "", pic: "images/br-online-cakes/fudge-roll-cake.png"},
     { name: "OREO Triple Chocolate Cake", code: "H-88", description: "", pic: "images/br-online-cakes/oreo-triple-chocolate-cake.png" },
-    { name: "OREO Ice Cream Cookies & Scoops Cake", code: "H-141", description: "", pic: "images/br-online-cakes/oreo-ice-cream-cookies-scoops-cake.png" },
+    { name: "OREO Ice Cream Cookies & Scoops Cake", code: "H-141", description: "", pic: "images/br-online-cakes/oreo-scoops-cake.png" },
     { name: "OREO Cream Delight Cookie Cake", code: "ED-31", description: "", pic: "images/br-online-cakes/oreo-cream-delight-cookie-cake.png" },
     { name: "OREO Cream Delight Cookie Roll Cake", code: "ED-32", description: "", pic: "images/br-online-cakes/oreo-cream-delight-cookie-roll-cake.png" },
     { name: "OREO Cookie Crumb Mini Roll Cake", code: "ED-34", description: "", pic: "images/br-online-cakes/oreo-cookie-crumb-mini-roll.png" },
@@ -66,7 +66,7 @@ const creaturesData = [
     { name: "Teddy Bear Cake", code: "H-85", description: "", pic: "images/br-online-cakes/teddy-bear-cake.png"},
     { name: "Polar Bear Cake", code: "H-83", description: "", pic: "images/br-online-cakes/polar-bear-cake.png"},
     { name: "Reindeer Cake", code: "H-121", description: "", pic: "images/br-online-cakes/reindeer-cake.png"},
-    { name: "Brrr the Snowman Cake", code: "H-143", description: "", pic: "images/br-online-cakes/brrr-snowman.png"},
+    { name: "Brrr the Snowman Cake", code: "H-143", description: "", pic: "images/br-online-cakes/brrr-snowman2.png"},
     { name: "Snowman Cake", code: "H-71", description: "", pic: "images/br-online-cakes/snowman-cake.png"},
     { name: "Elf Cake", code: "SA-65", description: "", pic: "images/br-online-cakes/elf-cake.png"},
     // { name: "Santa Cake", code: "SA-64", description: "", pic: "images/br-online-cakes/santa-cake.png"},
@@ -109,6 +109,7 @@ const specialOcassionsData = [
     // { name: "Speckled Egg Cake", code: "H-114", description: "", pic: "images/br-online-cakes/speckled-egg-cake.png"},
     // Graduation
     { name: "Diploma Roll Cake", code: "SO-48", description: "", pic: "images/br-online-cakes/diploma-roll-cake.png"},
+    { name: "Turn the Tassel Cake", code: "SO-54", description: "", pic: "images/br-online-cakes/turn-the-tassel-cake.png"},
     { name: "Cap & Diploma Cake", code: "SO-37", description: "", pic: "images/br-online-cakes/cap-and-diploma-cake-2022.png"},
     { name: "School Spirit Cake", code: "SO-47", description: "", pic: "images/br-online-cakes/school-spirit-cake-2022.png"},
     { name: "School Spirit Tiered Cake", code: "T-8", description: "", pic: "images/br-online-cakes/school-spirit-tiered-cake-2022.png"},
@@ -129,6 +130,7 @@ const specialOcassionsData = [
     { name: "Fall Harvest Roll Cake", code: "H-35", description: "", pic: "images/br-online-cakes/full-harvest-roll-cake.png"},
     // Christmas
     { name: "Fudge Yule Log Roll Cake", code: "H-84", description: "", pic: "images/br-online-cakes/fudge-yule-log-roll-cake.png"},
+    { name: "Happy Holly-Days Cake", code: "H-167", description: "", pic: "images/br-online-cakes/happy-holly-days-cake.png"},
     { name: "Modern Wreath Cake", code: "H-136", description: "", pic: "images/br-online-cakes/modern-wreath-cake.png"},
     { name: "Rosette Christmas Tree Cake", code: "H-135", description: "", pic: "images/br-online-cakes/rosette-christmas-tree.png"},
     { name: "Winter Forest Cake", code: "H-137", description: "", pic: "images/br-online-cakes/winter-forest.png"},
