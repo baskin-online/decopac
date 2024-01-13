@@ -2,15 +2,26 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo:900');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+:root {
+  --mainFont: 'DM Sans';
+	--brBrown: #401f20;
+	--brPink1: #e21380;
+	--brPink2: #F2529D;
+  --brOffWhite: #eee1d8;
+}
 
 body{
-	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+	/* font-family: 'Helvetica Neue', Helvetica, Arial, serif; */
+	font-family: var(--mainFont);
 	line-height: 1.5;
 	font-size: 1.25rem;
-	color: #401f20;
+	color: var(--brBrown);
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
-	background-color: #f5f5f5;
+	background-color: #fcfcfc;
 }
 
 #menuBar {
@@ -23,28 +34,64 @@ body{
 }
 
 .brownBar {
-	background-color: #401f20;
+	background-color: var(--brBrown);
 	text-align: center;
-	line-height: 2.5rem;
+	font-family: 'Poppins';
+	line-height: 3rem;
 	color: #eee1d8; /* off-white */
 	text-shadow: none;
 	padding: 0px;
 	margin: 0px;
 }
 
-h1, a.item {
-	font-family: 'Oxygen';
-	color: #401f20 !important;
+.textbox {
+	padding: 1rem;
+	margin: auto;
+	width: 75%;
+  position: relative;
+  outline: none;
+  border: 5px solid #cdcdcd;
+  border-color: var(--brPink1);
+  background-color: white;
+	text-align: center;
+	font-size: 1.3rem;
+	border-radius: 25px;
+	border-style: dotted;
+	border-width: thick;
+}
+
+.activeLogo.item:hover {
+	background-color: rgba(232,232,232, 0.5) !important;
+}
+
+h1 {
+	font-family: 'Poppins';
+}
+
+a.item {
+	font-family: var(--mainFont);
+}
+
+a.item.active {
+	color: var(--brPink1) !important;
+	background-color: rgba(242,82,157,0.08) !important;
+}
+
+a.item:hover {
+	color: var(--brPink1) !important;
+	background-color: rgba(242,82,157,0.08) !important;
 }
 
 a.ui.header {
 	font-size: 1rem !important;
-	color: #401f20 !important;
+	font-family: var(--mainFont) !important;
+	font-weight: 500;
+	color: var(--brBrown) !important;
 	text-align: center;
 }
 
 a.ui.header:hover {
-	color: #e21380 !important; /* bright pink */
+	color: var(--brPink1) !important; /* bright pink */
 }
 
 .decopacImage {
@@ -59,8 +106,7 @@ a.ui.header:hover {
 }
 
 .pink {
-	color: #F2529D;
-	/* color: #e21380; */
+	color: var(--brPink2);
 	font-weight: bold;
 }
 
@@ -77,11 +123,11 @@ li {
 }
 
 a {
-	color: #401f20; /* brown */
+	color: var(--brBrown); /* brown */
 }
 
 a:hover {
-	color: #e21380 !important; /* bright pink */
+	color: var(--brPink1) !important; /* bright pink */
 }
 
 hr {

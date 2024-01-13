@@ -14,6 +14,11 @@ function buildHeader() {
     <div class="brownBar"> \
         All cake orders require a <span class="pink">24-hour notice</span> in advance. \
     </div> \
+    <br> \
+    <div class="textbox"> \
+      Couldn\'t find the perfect design? Make it a Photocake for just $15! \
+      Celebrate your loved ones\' special day by showcasing their most treasured memories.\
+    </div> \
     ';
     // if (href.includes('list')) {
     //     currentDataSet = decopacData;
