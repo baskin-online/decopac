@@ -7,20 +7,44 @@ body{
 	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 	line-height: 1.5;
 	font-size: 1.25rem;
-	color: #333333;
+	color: #401f20;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
-	background-color: #e0e0e0;
-	padding: 2rem;
+	background-color: #f5f5f5;
+}
+
+#menuBar {
+	/* background-color: #fff; */
+	color: #f0f9ff;
+	padding: 0px 1rem;
+	max-height: 4rem;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.brownBar {
+	background-color: #401f20;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #eee1d8; /* off-white */
+	text-shadow: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 h1, a.item {
 	font-family: 'Oxygen';
+	color: #401f20 !important;
 }
 
 a.ui.header {
 	font-size: 1rem !important;
+	color: #401f20 !important;
 	text-align: center;
+}
+
+a.ui.header:hover {
+	color: #e21380 !important; /* bright pink */
 }
 
 .decopacImage {
@@ -31,10 +55,12 @@ a.ui.header {
 
 .biggerfont {
 	font-size: 150%;
+	font-weight: 600 !important;
 }
 
 .pink {
-	color: #E600A1;
+	color: #F2529D;
+	/* color: #e21380; */
 	font-weight: bold;
 }
 
@@ -51,11 +77,11 @@ li {
 }
 
 a {
-	color: #0439D9;
+	color: #401f20; /* brown */
 }
 
 a:hover {
-	color: #E600A1;
+	color: #e21380 !important; /* bright pink */
 }
 
 hr {
