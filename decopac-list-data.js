@@ -47,7 +47,6 @@ const decoData = [
   { name: "iCarly", code: "", description: "", pic: "images/decopac/iCarly.jpg" },
   { name: "Incredibles 2", code: "", description: "", pic: "images/decopac/incredibles2.jpg" },
   { name: "Jake and the Neverland Pirates", code: "", description: "Yo Ho Way to Go", pic: "images/decopac/jakeAndNeverlandPirates.jpg" },
-  { name: "Littlest Pet Shop", code: "", description: "", pic: "images/decopac/littlest-pet-shop.jpg" },
   { name: "Luca", code: "", description: "The World Is Yours", pic: "images/decopac/luca.jpeg" },
   { name: "Madagascar (Three Ring Circus)", code: "", description: "", pic: "images/decopac/madagascar-3-ring-circus.jpeg" },
   { name: "Megamind", code: "", description: "", pic: "images/decopac/megamind.jpg" },
