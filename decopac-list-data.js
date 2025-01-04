@@ -42,7 +42,7 @@ const decoData = [
   { name: "Graduation Cap (Elegant Grad Cake)", code: "SO-56", description: "Elegant Grad Cake, Graduation Cap", pic: "images/br-online-cakes/elegant-grad-cake.png" },
   { name: "Graduation Cap (Turn the Tassel Cake)", code: "SO-54", description: "Turn the Tassel Cake, Graduation Cap", pic: "images/br-online-cakes/turn-the-tassel-cake.png" },
   { name: "Graduation Cap (School Spirit Cake)", code: "SO-47", description: "School Spirit Cake, Graduation Cap", pic: "images/br-online-cakes/school-spirit-cake-2024.png" },
-  { name: "Hello Kitty (Stamper)", code: "", description: "", pic: "images/decopac/helloKitty-stamper.jpg" },
+  { name: "Hello Kitty", code: "", description: "Play Bake Fun", pic: "images/decopac/helloKitty-bake.jpg" },
   { name: "High School Musical", code: "", description: "", pic: "images/decopac/highSchoolMusical.jpg" },
   { name: "Horses", code: "", description: "", pic: "images/decopac/horses.jpg" },
   { name: "Hot Wheels", code: "", description: "CC-106", pic: "images/decopac/hotWheels-br.png" },
