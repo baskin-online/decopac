@@ -8,7 +8,6 @@ const decoData = [
   { name: "Batman: Into Action", code: "CC-104", description: "", pic: "images/decopac/batman3.png" },
   { name: "Beach Chair & Umbrella", code: "", description: "Beach Chair & Umbrella", pic: "images/decopac/beachChairAndUmbrella.jpg" },
   { name: "Beach Flip Flops", code: "", description: "Summer Flip Flops", pic: "images/decopac/beachFlipFlops.jpg" },
-  { name: "Big Hero 6", code: "", description: "Heroes vs. Villans", pic: "images/decopac/bigHero6-cropped.jpg" },
   { name: "Bubble Guppies", code: "", description: "Gil, Molly and Gang", pic: "images/decopac/bubbleGuppies.jpg" },
   { name: "Candles Feliz Cumpleaños", code: "", description: "", pic: "images/decopac/felizCumpleanos.jpg" },
   { name: "Candles Happy Birthday Neon", code: "", description: "Happy Birthday Candles - Neon", pic: "images/decopac/happyBirthdayNeonCandles.jpg" },
