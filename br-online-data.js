@@ -9,6 +9,7 @@ const classicsData = [
     { name: "Candy Cake", code: "SO-29", description: "", pic: "images/br-online-cakes/candy-cake.png"},
     { name: "Fabulous Floral Cake", code: "B-22", description: "", pic: "images/br-online-cakes/fabulous-floral.png"},
     { name: "Flower Garden Cake", code: "SO-34", description: "", pic: "images/br-online-cakes/flower-garden.png"},
+    { name: "Coolest Cones Cake", code: "H-177", description: "", pic: "images/br-online-cakes/coolest-cones-cake.png"},
     { name: "Ice Cream Cone Cake", code: "B-42", description: "", pic: "images/br-online-cakes/ice-cream-cone-cake2.png"},
     { name: "OREO Cookie Ice Cream Sandwich Cake", code: "ED-33", description: "", pic: "images/br-online-cakes/oreo-ice-cream-sandwich-cake.png"},
     // { name: "Fudge Roll Cake", code: "SO-52", description: "", pic: "images/br-online-cakes/fudge-roll-cake.png"},
@@ -52,6 +53,7 @@ const creaturesData = [
     { name: "Chick Cake", code: "H-67", description: "", pic: "images/br-online-cakes/chick-cake.png"},
     { name: "Ladybug Cake", code: "SA-13", description: "", pic: "images/br-online-cakes/ladybug-cake.png"},
     { name: "Hopscotch The Bunny Cake", code: "H-139", description: "", pic: "images/br-online-cakes/hopscotch-the-bunny-cake.png"},
+    { name: "Rosie The Bunny Cake", code: "H-176", description: "", pic: "images/br-online-cakes/rosie-the-bunny-cake.png"},
     { name: "Bunny Face Cake", code: "H-113", description: "", pic: "images/br-online-cakes/bunny-face-cake.png"},
     // { name: "Fluffy Bunny Cake", code: "H-95", description: "", pic: "images/br-online-cakes/fluffy-bunny-cake.png"},
     // { name: "Bunny Roll Cake", code: "H-103", description: "", pic: "images/br-online-cakes/bunny-roll-cake.png"},
@@ -79,6 +81,7 @@ const specialOcassionsData = [
     { name: "Be Mine Small Heart Cake", code: "H-93", description: "", pic: "images/br-online-cakes/be-mine-small-heart-cake.png" },
     { name: "Hershey's Kisses Cake", code: "H-109", description: "", pic: "images/br-online-cakes/hershey-kisses-cake.png"},
     // Mother's Day
+    { name: "Perfect Peony Cake", code: "H-164", description: "", pic: "images/br-online-cakes/perfect-peony-cake.png"},
     { name: "Floral Cone Bouquet Cake", code: "H-140", description: "", pic: "images/br-online-cakes/floral-cone-bouquet.png"},
     { name: "Elegant Rosette Cake", code: "H-87", description: "", pic: "images/br-online-cakes/elegant-rosette-cake.png" },
     { name: "Amazing Mom Cake", code: "H-116", description: "", pic: "images/br-online-cakes/amazing-mom-cake.png"},
