@@ -36,7 +36,6 @@ const decoData = [
   { name: "Dora the Explorer (Umbrella)", code: "", description: "", pic: "images/decopac/dora-umbrella.jpg" },
   { name: "Emergency Vehicles (Ambulance, Firetruck, Police Car, Helicopter)", code: "", description: "", pic: "images/decopac/emergencyVehicles.jpg" },
   { name: "Finding Dory (Fintastic Adventures)", code: "", description: "", pic: "images/decopac/findingDory.jpg" },
-  { name: "Finding Nemo (Nemo & Squirt)", code: "", description: "", pic: "images/decopac/findingNemo.jpg" },
   { name: "Firetruck", code: "", description: "", pic: "images/decopac/firetruck.jpg" },
   { name: "Golf Cart", code: "", description: "", pic: "images/decopac/golfCart.jpg" },
   { name: "Graduation Cap (Elegant Grad Cake)", code: "SO-56", description: "Elegant Grad Cake, Graduation Cap", pic: "images/br-online-cakes/elegant-grad-cake.png" },
