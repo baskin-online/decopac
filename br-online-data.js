@@ -71,6 +71,8 @@ const creaturesData = [
 const specialOcassionsData = [
     // Valentines
     { name: "Crazy for You Cake", code: "H-160", description: "", pic: "images/br-online-cakes/crazy-for-you-cake.png"},
+    { name: "Vintage Cherry Cake", code: "H-179", description: "", pic: "images/br-online-cakes/vintage-cherry-cake.png"},
+    { name: "Vintage Heart Cake", code: "H-178", description: "", pic: "images/br-online-cakes/vintage-heart-cake.png"},
     { name: "Box of Chocolates Cake", code: "H-138", description: "", pic: "images/br-online-cakes/box-of-chocolates.png"},
     { name: "Heart Cones Cake", code: "H-126", description: "", pic: "images/br-online-cakes/heart-cones-cake2.png"},
     { name: "Love Banner Cake", code: "H-110", description: "", pic: "images/br-online-cakes/love-banner-cake.png" },
@@ -108,6 +110,7 @@ const specialOcassionsData = [
     // St. Patrick's Day
     { name: "St. Patrick's Day Cake", code: "H-73", description: "Rainbow", pic: "images/br-online-cakes/st-patricks-day-cake.png" },
     // Easter
+    { name: "Sunny Blossom Cake", code: "H-180", description: "", pic: "images/br-online-cakes/sunny-blossom-cake.png"},
     { name: "Petal Pop Cake", code: "H-170", description: "", pic: "images/br-online-cakes/petal-pop-cake.png"},
     { name: "Get Egg-Cited Cake", code: "H-161", description: "", pic: "images/br-online-cakes/get-egg-cited-cake.png"},
     // { name: "Bunny Stripe Cake", code: "H-102", description: "", pic: "images/br-online-cakes/bunny-stripe-cake.png"},
