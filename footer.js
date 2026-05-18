@@ -3,7 +3,7 @@ function buildFooter() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<h2 style="text-align: center;">Locations</h2> \
-    <div class="ui five column stackable middle aligned grid"> \
+    <div class="ui five column stackable top aligned grid"> \
       <div class="column" style="font-size: 1rem; vertical-align: text-top;"> \
         <a class="footerLink largeFont1" href="https://order.baskinrobbins.com/categories?storeId=BR-362036">Kapolei</a><br>\
         <i class="map marker alternate icon"></i> 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br> \

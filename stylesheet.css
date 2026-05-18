@@ -71,9 +71,11 @@ body{
 	font-size: 1.3rem !important;
 }
 
-.biggerfont {
-	font-size: 150%;
+.menuBarFont {
+	font-size: 1.25rem;
 	font-weight: 600 !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
 }
 
 .lineHeight2 {
@@ -147,7 +149,7 @@ a.ui.header:hover {
 }
 
 .pink {
-	color: #F5AFE5;
+	color: var(--brPink2);
 	font-weight: bold;
 }
 
