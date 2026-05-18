@@ -67,16 +67,19 @@ body{
 	border-width: thick;
 }
 
+.largeFont1 {
+	font-size: 1.3rem !important;
+}
+
 .footerLink {
 	color: var(--brBlue);
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	text-shadow: none;
-	font-size: 1.3rem;
 }
 
 .footerLink:hover {
-	color: var(--brPink1);
-	text-decoration: underline;
+	color: var(--brPink2) !important;
+	/* text-decoration: underline; */
 }
 
 .myLink {
