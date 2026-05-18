@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
 
 :root {
@@ -72,7 +73,7 @@ body{
 }
 
 .menuBarFont {
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 	font-weight: 600 !important;
 	padding-left: 5px !important;
 	padding-right: 5px !important;
@@ -113,7 +114,7 @@ body{
 }
 
 h1, h2 {
-	font-family: 'Poppins';
+	font-family: 'Elms Sans', 'Poppins';
 }
 
 a.item {
