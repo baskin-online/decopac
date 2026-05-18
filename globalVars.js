@@ -20,7 +20,7 @@ function buildHTMLforGrid(data, id) {
     let href = window.location.href;
     let list = document.getElementById(id);
     let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable centered">';
+    let temp = '<div class="ui three cards centered">';
     for (let i = 0; i < data.length; i++) {
         let code = '';
         if (data[i].code.length > 0 && !href.includes('grid')) {
