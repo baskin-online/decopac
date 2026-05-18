@@ -71,6 +71,15 @@ body{
 	font-size: 1.3rem !important;
 }
 
+.biggerfont {
+	font-size: 150%;
+	font-weight: 600 !important;
+}
+
+.lineHeight2 {
+	line-height: 2 !important;
+}
+
 .footerLink {
 	color: var(--brBlue);
 	/* text-decoration: underline; */
@@ -135,15 +144,6 @@ a.ui.header:hover {
 	height: 150px !important;
 	object-fit: contain;
 	background-color: white;
-}
-
-.biggerfont {
-	font-size: 150%;
-	font-weight: 600 !important;
-}
-
-.lineHeight1 {
-	line-height: 2;
 }
 
 .pink {
