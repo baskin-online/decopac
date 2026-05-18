@@ -84,12 +84,12 @@ body{
 
 .myLink {
 	color: var(--brPink1);
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .myLink:hover {
 	color: var(--brBlue) !important;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .myListItem {
