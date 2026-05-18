@@ -142,17 +142,23 @@ a.ui.header:hover {
 	font-weight: 600 !important;
 }
 
+.lineHeight1 {
+	line-height: 2;
+}
+
 .pink {
 	color: #F5AFE5;
 	font-weight: bold;
 }
 
 .myindent1 {
-	margin-left: 40px;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 20px;
 }
 
 .myindent2 {
-	margin-left: 20px;
+	padding-inline-start: 40px;
 }
 
 li {
