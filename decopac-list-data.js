@@ -38,6 +38,7 @@ const decoData = [
   { name: "Finding Dory (Fintastic Adventures)", code: "", description: "", pic: "images/decopac/findingDory.jpg" },
   { name: "Firetruck", code: "", description: "", pic: "images/decopac/firetruck.jpg" },
   { name: "Golf Cart", code: "", description: "", pic: "images/decopac/golfCart.jpg" },
+  { name: "Graduation Cap (Slice of Success Cake)", code: "SO-58", description: "Graduation Cap", pic: "images/br-online-cakes/slice-of-success-cake.png" },
   { name: "Graduation Cap (Elegant Grad Cake)", code: "SO-56", description: "Elegant Grad Cake, Graduation Cap", pic: "images/br-online-cakes/elegant-grad-cake.png" },
   { name: "Graduation Cap (Turn the Tassel Cake)", code: "SO-54", description: "Turn the Tassel Cake, Graduation Cap", pic: "images/br-online-cakes/turn-the-tassel-cake.png" },
   { name: "Graduation Cap (School Spirit Cake)", code: "SO-47", description: "School Spirit Cake, Graduation Cap", pic: "images/br-online-cakes/school-spirit-cake-2024.png" },
