@@ -98,6 +98,7 @@ const specialOcassionsData = [
     // { name: "Fault Line Tall Cake", code: "H-130", description: "Mother's Day, Mom, Flower, Floral", pic: "images/br-online-cakes/fault-line-tall-cake.png"},
     // Father's Day
     { name: "The Cold One Cake", code: "H-81", description: "Father's Day, Dad", pic: "images/br-online-cakes/the-cold-one-cake2.png"},
+    { name: "Respect the Beard Cake", code: "H-181", description: "Father's Day, Dad", pic: "images/br-online-cakes/respect-the-beard-cake.png"},
     { name: "Tool Box Cake", code: "T-69", description: "Father's Day, Dad", pic: "images/br-online-cakes/tool-box-cake.png"},
     { name: "Best Dad by Par Cake", code: "H-173", description: "Father's Day, Dad", pic: "images/br-online-cakes/bestDadByParCake.png"},
     { name: "Grillmaster Cake", code: "H-149", description: "Father's Day, Dad", pic: "images/br-online-cakes/grillmaster-cake.png"},
