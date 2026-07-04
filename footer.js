@@ -3,7 +3,7 @@ function buildFooter() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<h2 style="text-align: center;">Locations</h2> \
-    <div class="ui five column stackable top aligned grid"> \
+    <div class="ui six column stackable top aligned grid"> \
       <div class="column" style="font-size: 1rem; vertical-align: text-top;"> \
         <a class="footerLink largeFont1" href="https://order.baskinrobbins.com/categories?storeId=BR-362036">Kapolei</a><br>\
         <i class="map marker alternate icon"></i> 590 Farrington Hwy Unit 91, Kapolei, HI 96707<br> \
@@ -32,6 +32,12 @@ function buildFooter() {
         <a class="footerLink largeFont1" href="https://order.baskinrobbins.com/categories?storeId=BR-348162">Kailua</a><br>\
         <i class="map marker alternate icon"></i> 108 Hekili St, Kailua, HI 96734<br> \
         <a class="footerLink" href="tel:8082612770"><i class="phone icon"></i> (808) 261-2770</a><br> \
+        <i class="clock outline icon"></i> Everyday 10 am - 10 pm<br> \
+      </div> \
+      <div class="column" style="font-size: 1rem; vertical-align: text-top;"> \
+        <a class="footerLink largeFont1" href="https://order.baskinrobbins.com/categories?storeId=BR-362034">Kaneohe</a><br>\
+        <i class="map marker alternate icon"></i> Windward City Shopping Center, 45-480 Kaneohe Bay Dr, Kaneohe, HI 96744<br> \
+        <a class="footerLink" href="tel:8082477131"><i class="phone icon"></i> (808) 247-7131</a><br> \
         <i class="clock outline icon"></i> Everyday 10 am - 10 pm<br> \
       </div> \
     </div> \
